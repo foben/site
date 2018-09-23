@@ -1,4 +1,6 @@
-
+---
+title: Home
+---
 <img src="/images/ben_avatar_optim.jpg" class="circle-badge" style="width: 100%; max-width: 18em;" title="Ben in one of the Google ball pits" />
 <p class="title centered" style="font-size: 1.75em">Benjamin Elder</p>
 <div class="" style="padding: .5em">
