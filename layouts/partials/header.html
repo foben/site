@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ .Title }}</title>
+  {{ partialCached "meta.html" . }}
+  {{ partialCached "inlinecss.html" . }}
+</head>
+<body ontouchstart="return true">

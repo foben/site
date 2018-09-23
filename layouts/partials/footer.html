@@ -1,0 +1,5 @@
+<div class="footer"><span class="copyright">
+  {{ replace .Site.Copyright "{year}" now.Year }} 
+  <a class="nowrap" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span><a class="nowrap" href="https://github.com/BenTheElder/site">Source on <span class="emoji" style="background-image:url(/images/GitHub-Mark-Light-120px-plus.png)" title=":github:">:github:</span></a>{{if .GitInfo}}@<a href="https://github.com/BenTheElder/site/commit/{{.GitInfo.Hash}}">{{.GitInfo.AbbreviatedHash}}</a>{{end}}</div>
+</body>
+</html>

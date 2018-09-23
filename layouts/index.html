@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+  <div id="content">
+    <div class="tile centered-text">{{ .Content }}</div>
+    <div class="tile" style="margin-top: -2em;">
+      <p class="title centered centered-text">Posts</p>
+      {{ range $i, $post := (where .Pages "Section" "posts").ByDate.Reverse }}
+      <a href="{{.Permalink}}" class="full-bleed list-item {{- if eq $i 0}} first {{- end}}">
+        <p class="title">{{if .Params.htmlTitle}}{{.Params.htmlTitle | safeHTML}}{{else}}{{.Title}}{{end}}{{if .Params.subtitle }}<span class="inline-block not-bold">:</span> <span class="inline black not-bold"> {{.Params.subtitle}} </span>{{end}}</p>{{range .Params.Categories}}<span class="category">{{. | safeHTML}}</span>{{end}}
+        {{ $date := .Date.Format "January 2SUFFIX, 2006" }}
+        {{ $day := .Date.Format "2" }}
+        {{ $suffix := "th" }}
+        {{ if or (eq $day "1") (or (eq $day "21") (eq $day "31")) }}
+          {{ $suffix = "st" }}
+        {{ else if or (eq $day "2") (eq $day "22") }}
+          {{ $suffix = "nd" }}
+        {{ else if or (eq $day "3") (eq $day "23") }}
+          {{ $suffix = "rd" }}
+        {{ end }}
+        <p class="sub-title">{{ replace $date "SUFFIX" $suffix }}</p>
+      </a>
+      {{ end }}
+      <p></p>
+    </div>
+  </div>
+{{ partial "footer.html" . }}

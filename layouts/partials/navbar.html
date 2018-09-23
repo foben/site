@@ -1,0 +1,26 @@
+{{ $current := "" }}
+{{ if hasPrefix .URL "/posts" -}}
+  {{- $current = "/posts" -}}
+{{- else if hasPrefix .URL "/projects" -}}
+  {{- $current = "/projects" -}}
+{{- else if hasPrefix .URL "/about" -}}
+  {{- $current = "/about" -}}
+{{- end}}
+<div class="header">
+  <div class="header-content">
+    <span class="brand">
+      <a {{if eq $current "" -}} class="current" {{- end}} href="/">BenTheElder</a>
+    </span>
+    <div class="nav">
+    <span>
+      <a {{if eq $current "/projects" -}} class="current" {{- end}} href="/projects">PROJECTS</a>
+    </span>
+    <span>
+      <a {{if eq $current "/posts" -}} class="current" {{- end}} href="/posts">POSTS</a>
+    </span>
+    <span>
+      <a {{if eq $current "/about" -}} class="current" {{- end}} href="/about">ABOUT</a>
+    </span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+# hugo (https://gohugo.io) configuration
+
+title = "BenTheElder"
+copyright = "Copyright © 2015-{year} Benjamin Elder"
+
+# these are defaults, but let's be explicit
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+staticDir = ["static"]
+layoutDir = "layouts"
+
+ignore = ["^README.md$"]
+
+enableGitInfo = true
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=inline"
