@@ -5,7 +5,7 @@ title: Prow
 subtitle: Testing the way to Kubernetes Next
 categories:
 - OSS
-- go
+- <span class="emoji" style="background-image:url(/images/slackmoji/gopher.svg)" title=":go:"/>:go:</span>
 - <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span>
 ---
 <!--prow diagram-->

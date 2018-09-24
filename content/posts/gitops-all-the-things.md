@@ -5,7 +5,7 @@ date: "2018-09-23"
 categories:
 - '<span class="emoji" style="background-image:url(/images/slackmoji/allthethings.jpg)" title=":allthethings:">:allthethings:</span>'
 - <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span>
-- git
+- <span class="emoji" style="background-image:url(/images/slackmoji/git.png)" title=":git:"/>:git:</span>
 ---
 You should use [GitOps] for everything. **Everything**.
 

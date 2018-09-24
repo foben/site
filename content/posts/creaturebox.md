@@ -5,7 +5,7 @@ title: CreatureBox
 subtitle: An Obstacle Avoidance Evolutionary Simulation
 categories:
 - OSS
-- Go
+- <span class="emoji" style="background-image:url(/images/slackmoji/gopher.svg)" title=":go:"/>:go:</span>
 - ML
 ---
 <a href="https://github.com/BenTheElder/creaturebox">CreatureBox</a> is a simple evolutionary obstacle avoidance demo I wrote inspired by [studio otoro](http://otoro.net)'s awesome
