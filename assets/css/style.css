@@ -820,7 +820,6 @@ p.min-para:before {
   flex: 1;
   background-color: #105ae2;
   color: white;
-  min-height: 100%;
 }
 .error-page .header {
   font-size: 2em;
