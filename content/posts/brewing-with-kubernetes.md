@@ -4,8 +4,8 @@ date: "2018-03-04"
 title: Brewing With Kubernetes
 htmlTitle: 'Brewing With Kubernetes <span class="emoji" style="background-image:url(/images/emoji/emoji_u2615.png)" title=":coffee:">:coffee:</span>'
 categories:
-- Kubernetes
 - Hardware
+- <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span>
 ---
 
 My coffee pot is now a node in my home Kubernetes cluster, and it's awesome.

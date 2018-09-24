@@ -4,7 +4,7 @@ date: "2018-03-04"
 title: Migrating My Site To Kubernetes
 categories:
 - META
-- Kubernetes
+- <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span>
 ---
 <div class="tile centered-text warning"><p class="title centered"><span style="background-image:url(/images/emoji/emoji_u1f6a8.png)" class="emoji" title=":rotating_light:">:rotating_light:</span></img>&nbsp;Disclaimer&nbsp;<span style="background-image:url(/images/emoji/emoji_u1f6a8.png)" class="emoji" title=":rotating_light:">:rotating_light:</span></p><p class="no-margin">I work at Google in Cloud on Kubernetes things, but <span class="bold">this is my personal site.</span> <span style="background-image:url(/images/emoji/emoji_u1f937_1f3fb_200d_2642.png)" title=":shrug:" class="emoji">:shrug:</span></p></div>
 
