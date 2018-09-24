@@ -815,9 +815,6 @@ p.min-para:before {
 
 
 .error-page {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
   background-color: #105ae2;
   color: white;
 }
