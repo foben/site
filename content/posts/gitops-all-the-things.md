@@ -11,7 +11,7 @@ You should use [GitOps] for everything. **Everything**.
 
 GitOps is a recent-ish term for:
 
-- use declarative configuration for your infrastructure (e.g [Kubernetes])
+- use declarative configuration for your infrastructure (e.g. [Kubernetes])
 - version all of your configuration in source control (I.E. [Git])
 - use your source control to drive your infrastructure (I.E. use CI/CD = [Ops])
 
