@@ -48,7 +48,7 @@ I use Kubernetes to:
 - connect the software's API to my web server by creating a [Service](https://kubernetes.io/docs/concepts/services-networking/service/) I can "magically" access at `http://coffeebot-service.default` from any node in the cluster
 - automatically restart the service when it fails for any reason
   - count restarts (useful for verifying that the service *hasn't* been failing)
-- expose a seperate local-users-only control plane by exposing a different container port with a [nodePort](https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport) bound to 80 (on a different service not publicly exposed or proxied)
+- expose a separate local-users-only control plane by exposing a different container port with a [nodePort](https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport) bound to 80 (on a different service not publicly exposed or proxied)
 - conveniently and securely access the service(s) from anywhere with `kubectl proxy`
 
 

@@ -56,7 +56,7 @@ Each creature has a fully connected two layer (input and output) neural network.
 #### Evolution
 Lastly I implemented the key component (evolution) by adding logic to track the number of frames each creature has been
  "alive" for, storing the weights of the best creatures. I also performed a finalpass over the logic to optimize things
- a little bit (mainly minimizing un-neccessary allocations).\
+ a little bit (mainly minimizing un-necessary allocations).\
 \
 Every n-th frame a number of new creatures are spawned, some of which have brain patterns cloned from the all time best
  creatures so far, some with a combination of two of the best, and some purely random. Eventually creatures better at
