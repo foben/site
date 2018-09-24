@@ -1,1 +1,2 @@
+# instruct netlify to redirect to canonical host
 https://bentheelder.netlify.com/* https://bentheelder.io/:splat 301!
