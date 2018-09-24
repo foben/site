@@ -13,7 +13,7 @@ GitOps is a recent-ish term for:
 
 - use declarative configuration for your infrastructure (e.g [Kubernetes])
 - version all of your configuration in source control (I.E. [Git])
-- use this your source control to drive your infrastructure (I.E. use CI/CD = [Ops])
+- use your source control to drive your infrastructure (I.E. use CI/CD = [Ops])
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">GitOps: versioned CI/CD on top of declarative infrastructure. Stop scripting and start shipping. <a href="https://t.co/SgUlHgNrnY">https://t.co/SgUlHgNrnY</a></p>&mdash; Kelsey Hightower (@kelseyhightower) <a href="https://twitter.com/kelseyhightower/status/953638870888849408?ref_src=twsrc%5Etfw">January 17, 2018</a></blockquote>
 
