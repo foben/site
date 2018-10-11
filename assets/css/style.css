@@ -150,7 +150,7 @@ a {
 .tile a:hover, .tile a:focus,
 .card a:hover, .card a:focus {
   border-color: #105ae2;/*#1967D2;*/
-  background-color: #FDD8353f;
+  background-color: #fdd83524;
 }
 /*
 .card a:visited,
@@ -162,6 +162,7 @@ a {
   border-color: #609;
 }
 */
+/*
 .tile>a.full-bleed.list-item:hover,
 .card>a.full-bleed.list-item:hover,
 .tile>a.full-bleed.list-item:focus,
@@ -173,6 +174,7 @@ a {
   background-color: #FDD8353f;
   border-color: #dedede;
 }
+*/
 
 a.white:hover,
 .white a:hover,
@@ -345,7 +347,7 @@ a.white:hover,
 }
 .tile>.full-bleed.list-item,
 .card>.full-bleed.list-item {
-  margin-top: -1px;
+  margin-top: 0;
   margin-bottom: 0;
   overflow-x: hidden;
 }
