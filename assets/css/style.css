@@ -124,9 +124,9 @@ canvas { background-color: black; }
 
 hr {
   color: rgba(0,0,0,0.13);
-  background-color: rgba(0,0,0,0.13);
+  background-color: #000;
   border: none !important;
-  height: 1px !important;
+  height: 2px !important;
   margin-bottom: .25em !important;
   margin-top: .25em !important;
   padding: 0 !important;
