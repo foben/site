@@ -3,8 +3,8 @@ markup: md
 title: Rust Hotswap
 date: "2015-01-12"
 categories:
-- rust
 - dev
+- <span class="emoji" style="background-image:url(/images/rust-logo-128x128-blk.png)" title=":rust:">:rust:</span>
 ---
 <div class="tile centered-text warning"><p class="title centered">This post is old (!)</p><p class="no-margin">Rust has changed since this post was written, it may not still be accurate.</p></div>
 
