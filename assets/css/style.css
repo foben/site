@@ -178,7 +178,10 @@ a {
 
 a.white:hover,
 .white a:hover,
-.footer a:hover, {
+.footer a:hover, 
+a.white:focus,
+.white a:focus,
+.footer a:focus {
   border-bottom-color: white;
 }
 
@@ -271,7 +274,9 @@ a.white:hover,
 }
 .header-content a:hover:before,
 .header-content a.current:before,
-.footer a:hover:before { 
+.footer a:hover:before,
+.header-content a:focus:before,
+.footer a:focus:before { 
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -341,15 +346,21 @@ a.white:hover,
 .tile>.full-bleed,
 .card>.full-bleed {
   padding: .25em 1em;
-  border: 1px solid #dedede;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 .tile>.full-bleed.list-item,
 .card>.full-bleed.list-item {
+  border: 1px solid #dedede;
   margin-top: 0;
   margin-bottom: 0;
   overflow-x: hidden;
+}
+.tile>a.full-bleed.list-item:hover,
+.card>a.full-bleed.list-item:hover,
+.tile>a.full-bleed.list-item:focus,
+.card>a.full-bleed.list-item:focus {
+  border-color: #105ae2;
 }
 .tile>.full-bleed.list-item.first,
 .card>.full-bleed.list-item.first {
