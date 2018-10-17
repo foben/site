@@ -6,8 +6,6 @@ categories:
 - META
 - <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span>
 ---
-<div class="tile centered-text warning"><p class="title centered"><span style="background-image:url(/images/emoji/emoji_u1f6a8.png)" class="emoji" title=":rotating_light:">:rotating_light:</span></img>&nbsp;Disclaimer&nbsp;<span style="background-image:url(/images/emoji/emoji_u1f6a8.png)" class="emoji" title=":rotating_light:">:rotating_light:</span></p><p class="no-margin">I work at Google in Cloud on Kubernetes things, but <span class="bold">this is my personal site.</span> <span style="background-image:url(/images/emoji/emoji_u1f937_1f3fb_200d_2642.png)" title=":shrug:" class="emoji">:shrug:</span></p></div>
-
 [Previously](/blog/hello-again) when I brought my my site back online I briefly mentioned the simple setup I threw together with Caddy running on a tiny [GCE](https://cloud.google.com/compute/) VM with a few scripts  —  Since then I've had plenty of time to experience the awesomeness that is managing services with [Kubernetes](https://kubernetes.io/) at work while developing Kubernetes's [testing infrastructure](https://github.com/kubernetes/test-infra/) (which we run on [GKE](https://cloud.google.com/kubernetes-engine/)).
 
 So I decided, of course, that it was only natural to migrate my own service(s) to Kubernetes for maximum dog-fooding. <span class="nowrap"><span style="background-image:url(/images/kubernetes_logo.svg)" class="emoji" title=":kubernetes:">:kubernetes:</span> ↔ <span style="background-image:url(/images/emoji/emoji_u1f436.png)" class="emoji" title=":dog:">:dog:</img></span>
