@@ -2,9 +2,9 @@
 markup: md
 #layout: minimal
 prerelease: true
-date: "2018-10-28"
+date: "2018-10-30"
 title: Mapping Appalachia
-subtitle: My Fallout 76 Journal
+subtitle: An Interactive Fallout 76 Log 
 categories:
 - <span class="emoji" style="background-image:url(/images/slackmoji/pipboy.png)" title=":pipboy:">:pipboy:</span>
 - <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3ae.png)" title=":video_game:">:video_game:</span>
@@ -65,15 +65,16 @@ head: |
     <div id="map" style="margin: 0 auto;"></div>
 </div>
 
-<p class="title underline " style="font-weight: bold; margin-top: .25em;">Day One</p>
+<p class="title underline " style="font-weight: bold; margin-top: .25em;">October 30th B.E.T.A.</p>
 
-1. Vault 76 - The jouney starts here.
+1. **Vault 76** - The jouney starts here.
+
+
 
 ----
 Credits:
 
-- Actual map image adapted from [here](https://www.reddit.com/r/fo76/comments/9mgzfu/4k_composite_map_from_ign_gameplay_4356px_x_4356px/) with thanks to [u/ReadsSmallTextWrong](https://www.reddit.com/user/ReadsSmallTextWrong).
-
+- Map image adapted from [here](https://www.reddit.com/r/fo76/comments/9mgzfu/4k_composite_map_from_ign_gameplay_4356px_x_4356px/) with thanks to [u/ReadsSmallTextWrong](https://www.reddit.com/user/ReadsSmallTextWrong). Original artwork copyright [Bethesda Softworks LLC](https://bethesda.net).
 
 
 <!--the map script-->
