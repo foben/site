@@ -94,8 +94,6 @@ var image = L.imageOverlay('/images/fo76-map-optimized.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
 
-map.setView(vault76, -2.125);
-
 var yx = L.latLng;
 var xy = function(x, y) {
     if (L.Util.isArray(x)) {    // When doing xy([x, y]);
@@ -107,4 +105,6 @@ var xy = function(x, y) {
 var vault76 = xy(1396, 2889.0);
 
 L.marker(vault76).addTo(map).bindPopup('1. Vault 76 - The jouney starts here.');
+
+map.(vault76, -2.125);
 </script>
