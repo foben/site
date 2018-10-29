@@ -18,8 +18,12 @@ head: |
   <style>
   #content, #content .tile {
     background-color: #214673;
+    background-color: #0B1828;
     color: white;
     padding-top: 0;
+  }
+  #content hr {
+    background-color: #f0eb1e;
   }
   .tile {
     max-width: 1090px;
@@ -66,13 +70,20 @@ head: |
 <!--title-->
 <!--Mapping Fallout 76-->
 <!--the map-->
-<div class="full-page-width" style="padding: 0;">
+<div class="full-page-width" style="padding: 0; margin-top: calc(-.25em - 2px);">
     <div id="map" style="margin: 0 auto;"></div>
 </div>
 
 <p class="title" style="font-weight: bold; text-align: center; color: white; margin-top: .25em; border-bottom: 2px solid white;">My Journey Through West Virginia.</p>
 
 <p>1. Vault 76 - The jouney starts here.</p>
+
+----
+Credits:
+
+- Actual map image adapted from [here](https://www.reddit.com/r/fo76/comments/9mgzfu/4k_composite_map_from_ign_gameplay_4356px_x_4356px/) with thanks to [u/ReadsSmallTextWrong](https://www.reddit.com/user/ReadsSmallTextWrong).
+
+
 
 <!--the map script-->
 <script>
