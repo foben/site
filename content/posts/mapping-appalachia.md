@@ -94,7 +94,7 @@ var image = L.imageOverlay('/images/fo76-map-optimized.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
 
-map.setView([4356, 4356/2], -2.125);
+map.setView([4356, 4356/2 - 100], -2.125);
 
 var yx = L.latLng;
 var xy = function(x, y) {
