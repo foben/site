@@ -2,7 +2,7 @@
 markup: md
 #layout: minimal
 prerelease: true
-date: "2018-10-30"
+date: "2018-10-29"
 title: Mapping Appalachia
 subtitle: An Interactive Fallout 76 Log 
 categories:
