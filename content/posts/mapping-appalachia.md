@@ -17,13 +17,7 @@ head: |
   <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
   <style>
   #content, #content .tile {
-    background-color: #214673;
-    background-color: #0B1828;
-    color: white;
     padding-top: 0;
-  }
-  #content hr {
-    background-color: #f0eb1e;
   }
   .tile {
     max-width: 1090px;
@@ -61,9 +55,6 @@ head: |
   }
   #content p {
     max-width: 1089px;
-  }
-  #content p.sub-title {
-    color: rgba(255,255,255.54);
   }
   </style>
 ---
