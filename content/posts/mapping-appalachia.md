@@ -4,7 +4,7 @@ markup: md
 prerelease: true
 date: "2018-10-29"
 title: Mapping Appalachia
-subtitle: Interactive Fallout 76 Log 
+subtitle: Fallout 76 Cartographer
 categories:
 - <span class="emoji" style="background-image:url(/images/slackmoji/pipboy.png)" title=":pipboy:">:pipboy:</span>
 - <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3ae.png)" title=":video_game:">:video_game:</span>
@@ -48,6 +48,8 @@ head: |
     color: white;
     background-color: #8e0011;
     border: 2px solid black;
+    font-size: 1.6em;
+    margin-bottom: 0.1em;
     /*text-transform: uppercase;*/
   }
   #content p.page-title .black {
@@ -74,8 +76,9 @@ head: |
 ----
 Credits:
 
-- Map image adapted from [here](https://www.reddit.com/r/fo76/comments/9mgzfu/4k_composite_map_from_ign_gameplay_4356px_x_4356px/) with thanks to [u/ReadsSmallTextWrong](https://www.reddit.com/user/ReadsSmallTextWrong). Original artwork copyright [Bethesda Softworks LLC](https://bethesda.net).
+- Interactive Map built with [Leaflet](https://leafletjs.com) and [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen).
 
+- Map image adapted from [here](https://www.reddit.com/r/fo76/comments/9mgzfu/4k_composite_map_from_ign_gameplay_4356px_x_4356px/) with thanks to [u/ReadsSmallTextWrong](https://www.reddit.com/user/ReadsSmallTextWrong). Original artwork copyright [Bethesda Softworks LLC](https://bethesda.net).
 
 <!--the map script-->
 <script>
