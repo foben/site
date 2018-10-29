@@ -4,7 +4,7 @@ markup: md
 prerelease: true
 date: "2018-10-29"
 title: Mapping Appalachia
-subtitle: An Interactive Fallout 76 Log 
+subtitle: Interactive Fallout 76 Log 
 categories:
 - <span class="emoji" style="background-image:url(/images/slackmoji/pipboy.png)" title=":pipboy:">:pipboy:</span>
 - <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3ae.png)" title=":video_game:">:video_game:</span>
