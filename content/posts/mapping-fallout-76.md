@@ -1,30 +1,31 @@
 ---
 markup: md
-layout: minimal
+#layout: minimal
 prerelease: true
 date: "2018-10-28"
-title: Mapping Fallout 76
+title: Mapping Appalachia
+subtitle: My Fallout 76 Journal
 categories:
-- gaming
----
-<!--title-->
-Mapping Fallout 76
-<!--scripts and styling-->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
-<style>
-#content, #content .tile {
+- <span class="emoji" style="background-image:url(/images/slackmoji/pipboy.png)" title=":pipboy:">:pipboy:</span>
+- <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3ae.png)" title=":video_game:">:video_game:</span>
+- <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f5fa.png)" title=":map:">:map:</span>
+head: |
+  <!--scripts and styling-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+  <style>
+  #content, #content .tile {
     background-color: #214673;
     color: white;
     padding-top: 0;
-}
-.tile {
+  }
+  .tile {
     max-width: 1090px;
     padding-top: 0!important;
-}
-#map {
+  }
+  #map {
     width: calc(100vw - 4px);
     height: calc(100vw - 4px);
     max-width: 1089px;
@@ -33,31 +34,42 @@ Mapping Fallout 76
     border: 2px solid #f1e93c;
     margin: 0;
     padding: 0;
-}
-#content p:first-child {
+  }
+  #content p.page-title {
     margin: .25em auto;
-    padding: 0!important;
+    padding: .15em!important;
+    padding-left: .5em!important;
+    padding-right: .5em!important;
     line-height: 1.2em;
-    max-width: 12em;
-    font-size: 2em; 
+    /*max-width: 12em;*/
+    font-size: 2em;
     color: #f1e93c;
     text-align: center;
     font-family: Roboto;
     font-weight: bold;
-    color: #fff7f4;
-    background-color: #61010e;
+    color: white;
+    background-color: #8e0011;
     border: 2px solid black;
-    text-transform: uppercase;
-}
-#content p {
-  margin: 0 auto;
-  max-width: 1089px;
-}
-</style>
+    /*text-transform: uppercase;*/
+  }
+  #content p.page-title .black {
+    color: rgba(255,255,255,.87);
+  }
+  #content p {
+    max-width: 1089px;
+  }
+  #content p.sub-title {
+    color: rgba(255,255,255.54);
+  }
+  </style>
+---
+<!--title-->
+<!--Mapping Fallout 76-->
 <!--the map-->
 <div class="full-page-width" style="padding: 0;">
     <div id="map" style="margin: 0 auto;"></div>
 </div>
+
 <p class="title" style="font-weight: bold; text-align: center; color: white; margin-top: .25em; border-bottom: 2px solid white;">My Journey Through West Virginia.</p>
 
 <p>1. Vault 76 - The jouney starts here.</p>
