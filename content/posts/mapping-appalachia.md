@@ -71,12 +71,13 @@ head: |
 
 1. **Vault 76** - The jouney starts here.
 
+...
 
 
 ----
 Credits:
 
-- Interactive Map built with [Leaflet](https://leafletjs.com) and [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen).
+- Interactive map built with [Leaflet](https://leafletjs.com) and [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen).
 
 - Map image adapted from [here](https://www.reddit.com/r/fo76/comments/9mgzfu/4k_composite_map_from_ign_gameplay_4356px_x_4356px/) with thanks to [u/ReadsSmallTextWrong](https://www.reddit.com/user/ReadsSmallTextWrong). Original artwork copyright [Bethesda Softworks LLC](https://bethesda.net).
 
