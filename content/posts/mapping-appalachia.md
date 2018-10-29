@@ -51,7 +51,7 @@ head: |
     /*text-transform: uppercase;*/
   }
   #content p.page-title .black {
-    color: rgba(255,255,255,.87);
+    color: rgba(255,255,255,.91);
   }
   #content p {
     max-width: 1089px;
