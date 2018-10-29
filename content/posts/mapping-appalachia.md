@@ -61,13 +61,13 @@ head: |
 <!--title-->
 <!--Mapping Fallout 76-->
 <!--the map-->
-<div class="full-page-width" style="padding: 0; margin-top: calc(-.25em - 2px);">
+<div class="full-page-width" style="padding: 0;">
     <div id="map" style="margin: 0 auto;"></div>
 </div>
 
-<p class="title" style="font-weight: bold; text-align: center; color: white; margin-top: .25em; border-bottom: 2px solid white;">My Journey Through West Virginia.</p>
+<p class="title underline " style="font-weight: bold; margin-top: .25em;">My Journey Through West Virginia.</p>
 
-<p>1. Vault 76 - The jouney starts here.</p>
+1. Vault 76 - The jouney starts here.
 
 ----
 Credits:
