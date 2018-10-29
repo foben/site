@@ -65,7 +65,7 @@ head: |
     <div id="map" style="margin: 0 auto;"></div>
 </div>
 
-<p class="title underline " style="font-weight: bold; margin-top: .25em;">My Journey Through West Virginia.</p>
+<p class="title underline " style="font-weight: bold; margin-top: .25em;">Day One</p>
 
 1. Vault 76 - The jouney starts here.
 
