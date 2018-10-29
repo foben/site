@@ -12,6 +12,8 @@ Mapping Fallout 76
 <!--scripts and styling-->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
 <style>
 #content, #content .tile {
     background-color: #214673;
@@ -65,6 +67,7 @@ Mapping Fallout 76
 var map = L.map('map', {
     crs: L.CRS.Simple,
     attributionControl: false,
+    fullscreenControl: true,
     minZoom: -2,
 });
 var bounds = [[0,0], [4356, 4356]];

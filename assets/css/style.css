@@ -147,10 +147,22 @@ a {
   margin-left: -2px;
   margin-right: -2px;
 }
+.leaflet-container a {
+  padding-left: unset;
+  padding-right: unset;
+  margin-left: unset;
+  margin-right: unset;
+}
+
+
 .tile a:hover, .tile a:focus,
 .card a:hover, .card a:focus {
   border-color: #105ae2;/*#1967D2;*/
   background-color: #fdd83524;
+}
+.leaflet-container a:hover,
+.leaflet-container a:focus {
+  background-color: white;
 }
 /*
 .card a:visited,
