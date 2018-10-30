@@ -67,7 +67,8 @@ head: |
     <div id="map" style="margin: 0 auto;"></div>
 </div>
 
-<p class="title underline " style="font-weight: bold; margin-top: .25em;">October 30th <a href="https://bethesda.net/en/article/XUtJrgiCgU6WqMASW8w0I/fallout-76-our-future-begins-together-in-beta">B.E.T.A.</a>  (Break-It Early Test Application)</p>
+<p class="title" style="font-weight: bold; margin-top: .25em;">October 30th <a href="https://bethesda.net/en/article/XUtJrgiCgU6WqMASW8w0I/fallout-76-our-future-begins-together-in-beta">B.E.T.A.</a>  (Break-It Early Test Application)</p>
+<hr>
 
 1. [**Vault 76**](http://fallout.wikia.com/wiki/Vault_76) - The journey starts here.
 
