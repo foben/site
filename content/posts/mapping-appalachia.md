@@ -4,7 +4,7 @@ markup: md
 prerelease: true
 date: "2018-10-29"
 title: Mapping Appalachia
-subtitle: Fallout 76 Cartographer
+subtitle: Fallout 76 Live Map
 categories:
 - <span class="emoji" style="background-image:url(/images/slackmoji/pipboy.png)" title=":pipboy:">:pipboy:</span>
 - <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3ae.png)" title=":video_game:">:video_game:</span>
@@ -67,14 +67,16 @@ head: |
     <div id="map" style="margin: 0 auto;"></div>
 </div>
 
-<p class="title underline " style="font-weight: bold; margin-top: .25em;">October 30th B.E.T.A.</p>
+<p class="title underline " style="font-weight: bold; margin-top: .25em;">October 30th <a href="https://bethesda.net/en/article/XUtJrgiCgU6WqMASW8w0I/fallout-76-our-future-begins-together-in-beta">B.E.T.A.</a>  (Break-It Early Test Application)</p>
 
-1. **Vault 76** - The jouney starts here.
+1. [**Vault 76**](http://fallout.wikia.com/wiki/Vault_76) - The journey starts here.
 
 ...
 
 
 ----
+
+
 Credits:
 
 - Interactive map built with [Leaflet](https://leafletjs.com) and [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen).
