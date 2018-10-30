@@ -2,7 +2,7 @@
 markup: md
 #layout: minimal
 prerelease: true
-date: "2018-10-29"
+date: "2018-10-30"
 title: Mapping Appalachia
 subtitle: Fallout 76 Live Map
 categories:
