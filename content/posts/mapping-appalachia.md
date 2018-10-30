@@ -16,18 +16,12 @@ head: |
   <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
   <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
   <style>
-  #content, #content .tile {
-    padding-top: 0;
-  }
-  .tile {
-    max-width: 1090px;
-    padding-top: 0!important;
-  }
   #map {
+    font-size: 1em;
     width: calc(100vw - 4px);
     height: calc(100vw - 4px);
-    max-width: 1089px;
-    max-height: 1089px;
+    max-width: 50em;
+    max-height: 50em;
     background-color: #0e0e0e;
     border: 2px solid #f1e93c;
     margin: 0;
@@ -39,7 +33,6 @@ head: |
     padding-left: .5em!important;
     padding-right: .5em!important;
     line-height: 1.2em;
-    /*max-width: 12em;*/
     font-size: 2em;
     color: #f1e93c;
     text-align: center;
@@ -50,13 +43,11 @@ head: |
     border: 2px solid black;
     font-size: 1.6em;
     margin-bottom: 0.1em;
+    margin-top: 0;
     /*text-transform: uppercase;*/
   }
   #content p.page-title .black {
     color: rgba(255,255,255,.91);
-  }
-  #content p {
-    max-width: 1089px;
   }
   </style>
 ---
@@ -75,10 +66,9 @@ head: |
 ...
 
 
-----
 
-
-Credits:
+<p class="title">Acknowledgements</p>
+<hr>
 
 - Interactive map built with [Leaflet](https://leafletjs.com) and [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen).
 
@@ -86,17 +76,7 @@ Credits:
 
 <!--the map script-->
 <script>
-var map = L.map('map', {
-    crs: L.CRS.Simple,
-    attributionControl: false,
-    fullscreenControl: true,
-    minZoom: -2.125,
-});
-var bounds = [[0,0], [4356, 4356]];
-var image = L.imageOverlay('/images/fo76-map-optimized.jpg', bounds).addTo(map);
-map.fitBounds(bounds);
-map.setMaxBounds(bounds);
-
+// helper to treat xy coords as map latlng objects
 var yx = L.latLng;
 var xy = function(x, y) {
     if (L.Util.isArray(x)) {    // When doing xy([x, y]);
@@ -105,9 +85,45 @@ var xy = function(x, y) {
     return yx(y, x);  // When doing xy(x, y);
 }
 
+// create the map
+var map = L.map('map', {
+    crs: L.CRS.Simple,
+    attributionControl: false,
+    fullscreenControl: true,
+    zoomDelta: 1,
+    zoomSnap: 1,
+});
+
+// add the map image with bounds = image dimensions
+// our map will be a square 4356 x 4356 px
+var mapSize = 4356;
+var bounds = [[0,0], [mapSize, mapSize]];
+var image = L.imageOverlay('/images/fo76-map-optimized.jpg', bounds).addTo(map);
+map.setMaxBounds(bounds);
+
+// helper that computes minimum zoom level to show the entire map
+function dimsToMinZoom() {
+  var size = map.getSize();
+  var minSize = Math.min(size.x, size.y);
+  return -1 * Math.sqrt(mapSize / minSize);
+}
+
+// fix the zoom level
+function fixZoom() {
+  map.setMinZoom(dimsToMinZoom());
+}
+fixZoom();
+map.options.zoomSnap = 0.00001;
+// zoom all the way out, and bias towards the top
+map.panTo(xy(mapSize/2, mapSize), {"animate": false});
+map.setZoom(map.getMinZoom(), {"animate": false});
+map.options.zoomSnap = 1;
+map.on("resize", function(event) {
+  fixZoom();
+})
+
+// first location!
 var vault76 = xy(1396, 2889.0);
-
-L.marker(vault76).addTo(map).bindPopup('1. Vault 76 - The jouney starts here.');
-
-map.setView(vault76, -2.125);
+// add a marker
+L.marker(vault76).addTo(map).bindPopup('1. <span class="bold">Vault 76</span> - The journey starts here.');
 </script>

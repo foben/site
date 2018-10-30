@@ -19,7 +19,7 @@ title: Home
   </table>
 </div>
 <hr style="margin: 0!important;"/>
-<div class="" style="padding: .5em">
+<div class="full-page-width" style="padding: .5em">
   <table style="margin: 0 auto; text-align: left;">
     <tbody>
       <tr>
