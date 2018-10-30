@@ -90,7 +90,7 @@ var map = L.map('map', {
     crs: L.CRS.Simple,
     attributionControl: false,
     fullscreenControl: true,
-    minZoom: -2.5,
+    minZoom: -2.125,
 });
 var bounds = [[0,0], [4356, 4356]];
 var image = L.imageOverlay('/images/fo76-map-optimized.jpg', bounds).addTo(map);
@@ -109,5 +109,5 @@ var vault76 = xy(1396, 2889.0);
 
 L.marker(vault76).addTo(map).bindPopup('1. Vault 76 - The jouney starts here.');
 
-map.setView(vault76, -3);
+map.setView(vault76, -2.125);
 </script>
