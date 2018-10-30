@@ -109,5 +109,5 @@ var vault76 = xy(1396, 2889.0);
 
 L.marker(vault76).addTo(map).bindPopup('1. Vault 76 - The jouney starts here.');
 
-map.setView(vault76, -2.5);
+map.setView(vault76, -3);
 </script>
