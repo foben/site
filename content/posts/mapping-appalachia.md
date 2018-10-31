@@ -89,11 +89,14 @@ patrolled by Super Mutants, and they had an encampment nearby.
 7. Bolton Green - A daycare for rich kids run by a robot, who was very concerned 
 with preparation for "The Halloween Gala". I took on a side quest to help for [caps](http://fallout.wikia.com/wiki/Bottle_cap), which mostly consisted of reminding other
 robots to return to the daycare and prepare for Halloween.
+
+8. Top of the World - A ski resort with a more retro-futuristic architecture 
+including a geodesic dome. I was attacked and killed by Super Mutant Skirmisher here.
 {{% /md %}}
 </div>
 
 <hr>
-<p class="centered-text">Not long after this I died, and restarted back at the vault.</p>
+<p class="centered-text">At this point I respawned back at the vault.</p>
 <hr>
 
 
@@ -242,6 +245,10 @@ addLocations('#3388ff', [
   {
     pos: xy(1396 + 870, 2889 - 300),
     desc: "Bolton Green - A day care for rich kids, run by robots",
+  },
+  {
+    pos: xy(1396 + 1000, 2889 - 580),
+    desc: "Top of the World - A ski resort with a more retro-futuristic architecture including a geodesic dome.",
   },
 ]);
 
