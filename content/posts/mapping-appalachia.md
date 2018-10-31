@@ -61,7 +61,7 @@ head: |
 
 During the first B.E.T.A. some places I discovered along my travels were:
 
-<div style="border-left: 3px solid #3388ff">
+<div style="border-left: 3px solid #3388ff; margin-left:-5px;">
 {{% md %}}
 1. [**Vault 76**](http://fallout.wikia.com/wiki/Vault_76) - An underground bunker where the journey begins.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-00.jpg"/>
@@ -97,7 +97,7 @@ robots to return to the daycare and prepare for Halloween.
 <hr>
 
 
-<div style="border-left: 3px solid #f1e93c">
+<div style="border-left: 3px solid #f1e93c; margin-left:-5px;">
 {{% md %}}
 1. Vault 76 again.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-21-57.jpg"/>
