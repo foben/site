@@ -2,9 +2,9 @@
 markup: md
 #layout: minimal
 prerelease: true
-date: "2018-10-30"
+date: "2018-10-31"
 title: Mapping Appalachia
-subtitle: Fallout 76 Live Map
+subtitle: A Fallout 76 Journal
 categories:
 - <span class="emoji" style="background-image:url(/images/slackmoji/pipboy.png)" title=":pipboy:">:pipboy:</span>
 - <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3ae.png)" title=":video_game:">:video_game:</span>
@@ -61,11 +61,69 @@ head: |
 <p class="title" style="font-weight: bold; margin-top: .25em;">October 30th <a href="https://bethesda.net/en/article/XUtJrgiCgU6WqMASW8w0I/fallout-76-our-future-begins-together-in-beta">B.E.T.A.</a>  (Break-It Early Test Application)</p>
 <hr>
 
-1. [**Vault 76**](http://fallout.wikia.com/wiki/Vault_76) - The journey starts here.
+During the first B.E.T.A. some places I discovered along my travels were:
 
-...
+<div style="border-left: 3px solid #3388ff">
+{{% md %}}
+1. [**Vault 76**](http://fallout.wikia.com/wiki/Vault_76) - An underground bunker where the journey begins.
 
+2. A crashed prop-plane of some sort at a farm.
 
+3. The Vault [Overseer](http://fallout.wikia.com/wiki/Vault_76_overseer)'s encampment. A pretty basic camp with a fire, some workbenches, and some storage chests.
+
+4. An abandoned water treatment plant. Overrun with [Liberator](http://fallout.wikia.com/wiki/Liberator_(Fallout_76)) robots.
+
+5. A large crashed plane, apparently a commercial airline. - 
+  I explored the inside and found some interesting loot. The area was also heavily
+patrolled by Super Mutants, and they had an encampment nearby.
+
+6. A pharmeceutical company's building, with a very cool retro-futuristic asthetic.
+
+7. Bolton Green - A daycare for rich kids run by a robot, very concerned with 
+preparation for "the Halloween gala". I took on a side quest to help for [caps](http://fallout.wikia.com/wiki/Bottle_cap).
+{{% /md %}}
+</div>
+
+Not long after this I died, and restarted back at the vault.
+
+<div style="border-left: 3px solid #f1e93c">
+{{% md %}}
+1. Vault 76 again.
+
+2. A logging plant, with logging robots still hard at work.
+
+3. A small town
+
+4. An agricultural research facility, teeming with robot farmers.
+
+5. Poseidon - A nuclear power plant.
+
+6. The remains of [Charleston](https://en.wikipedia.org/wiki/Charleston,_West_Virginia), specifically the capital building.
+
+7. The remains of an Airport, with many broken planes, and one more large crashed airplane
+against the air traffic control tower. The area was teeming with Super Mutants similar
+to the previous crash.
+{{% /md %}}
+</div>
+
+Notes:
+
+- Crashed planes are definitely a thing in Appalachia, there are a _lot_ of
+crashed planes, I suspect part of the plot (possibly for the "scorched" enemies)
+will revolve around this somehow.
+
+- Robots play a much bigger part in this world.
+
+I streamed most of my time on YouTube, you can watch it [here](https://www.youtube.com/watch?v=npIzLI7kvU8). I didn't capture everything in this post.
+
+I had fun, but had some frustration with the menus, particularly with the tab key
+being used to go back instead of escape. The menus for binding equippables were 
+also frustrating, both of these lead to a few in-game deaths. I also experienced
+a few small bugs, but no show-stoppers.
+
+Proximity voice chat also led to some ... interesting moments, including a
+ringing iPhone and a McDonalds order placed from the wastelands of West 
+Virginia <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f914.png)" title=":thinking:">:thinking:</span>
 
 <p class="title">Acknowledgements</p>
 <hr>
@@ -122,8 +180,82 @@ map.on("resize", function(event) {
   fixZoom();
 })
 
-// first location!
-var vault76 = xy(1396, 2889.0);
-// add a marker
-L.marker(vault76).addTo(map).bindPopup('1. <span class="bold">Vault 76</span> - The journey starts here.');
+// locations in order
+var vault76Pos = xy(1396, 2889.0);
+
+function addLocations(color, locations) {
+  for (var i = 0; i < locations.length; i++) {
+  let location = locations[i];
+  if (!('noMarker' in location)) {
+    L.marker(location.pos).addTo(map).bindPopup(location.desc);
+  }
+  if (i != 0) {
+    let params = {'color': color};
+    L.polyline([locations[i-1].pos, location.pos], params).addTo(map);
+    }
+  }
+}
+
+addLocations('#3388ff', [
+  {
+    pos: vault76Pos,
+    desc: '<span class="bold">Vault 76</span> - An underground bunker where the journey begins.',
+  },
+  {
+    pos: xy(1396 + 90, 2889 - 330),
+    desc: 'A crashed prop plane of some sort at a farm',
+  },
+  {
+    pos: xy(1396 + 170, 2889 - 380),
+    desc: "The Vault Overseer's encampment",
+  },
+  {
+    pos: xy(1396 + 540, 2889 - 670),
+    desc: "A water treatment plant",
+  },
+  {
+    pos: xy(1396 + 650, 2889 - 500),
+    desc: "A large crashed plane (apparently a commercial airline?)",
+  },
+  {
+    pos: xy(1396 + 480, 2889 - 340),
+    desc: "A pharmaceutical company",
+  },
+  {
+    pos: xy(1396 + 870, 2889 - 300),
+    desc: "Bolton Green - A day care for rich kids, run by robots",
+  },
+]);
+
+addLocations('#f1e93c', [
+  {
+    pos: vault76Pos,
+    noMarker: true,
+  },
+  {
+    pos: xy(1396 + 5, 2889 - 240),
+    desc: 'A logging plant, with logging robots still hard at work.',
+  },
+  {
+    pos: xy(1396 + 20, 2889 - 520),
+    desc: 'A small town',
+  },
+  {
+    pos: xy(1396 - 80, 2889 - 550),
+    desc: 'An agricultural research facility, teeming with robot farmers.',
+  },
+  {
+    pos: xy(1396 - 250, 2889 - 1050),
+    desc: 'Poseidon - A nuclear power plant.',
+  },
+  {
+    pos: xy(1396 + 130, 2889 - 1200),
+    desc: 'The remains of Charleston',
+  },
+  {
+    pos: xy(1396 + 110, 2889 - 1060),
+    desc: 'The remains of an Airport',
+  },
+]);
+
 </script>
