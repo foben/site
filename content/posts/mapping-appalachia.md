@@ -66,8 +66,13 @@ During the first B.E.T.A. some places I discovered along my travels were:
 <div style="border-left: 3px solid #3388ff">
 {{% md %}}
 1. [**Vault 76**](http://fallout.wikia.com/wiki/Vault_76) - An underground bunker where the journey begins.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-00.jpg"/>
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-02.jpg" />
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-03.jpg"/>
 
 2. A crashed prop-plane of some sort at a farm.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-06.jpg"/>
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-07.jpg"/>
 
 3. The Vault [Overseer](http://fallout.wikia.com/wiki/Vault_76_overseer)'s encampment. A pretty basic camp with a fire, some workbenches, and some storage chests.
 
@@ -76,33 +81,46 @@ During the first B.E.T.A. some places I discovered along my travels were:
 5. A large crashed plane, apparently a commercial airline. - 
   I explored the inside and found some interesting loot. The area was also heavily
 patrolled by Super Mutants, and they had an encampment nearby.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-10.jpg"/>
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-11.jpg"/>
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-11_2.jpg"/>
 
 6. A pharmeceutical company's building, with a very cool retro-futuristic asthetic.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-12.jpg"/>
 
-7. Bolton Green - A daycare for rich kids run by a robot, very concerned with 
-preparation for "the Halloween gala". I took on a side quest to help for [caps](http://fallout.wikia.com/wiki/Bottle_cap).
+7. Bolton Green - A daycare for rich kids run by a robot, who was very concerned 
+with preparation for "The Halloween Gala". I took on a side quest to help for [caps](http://fallout.wikia.com/wiki/Bottle_cap), which mostly consisted of reminding other
+robots to return to the daycare and prepare for Halloween.
 {{% /md %}}
 </div>
 
-Not long after this I died, and restarted back at the vault.
+<hr>
+<p class="centered-text">Not long after this I died, and restarted back at the vault.</p>
+<hr>
+
 
 <div style="border-left: 3px solid #f1e93c">
 {{% md %}}
 1. Vault 76 again.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-21-57.jpg"/>
 
 2. A logging plant, with logging robots still hard at work.
 
-3. A small town
+3. A small town. Various factions resided here once, all long gone.
 
-4. An agricultural research facility, teeming with robot farmers.
+4. An agricultural research facility, tended by many robot farmers.
 
-5. Poseidon - A nuclear power plant.
+5. Poseidon - A nuclear power plant. There seemed to be a quest to get the power
+working again, but I moved on to explore other areas for now.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-22-06.jpg"/>
 
-6. The remains of [Charleston](https://en.wikipedia.org/wiki/Charleston,_West_Virginia), specifically the capital building.
+6. The remains of [Charleston](https://en.wikipedia.org/wiki/Charleston,_West_Virginia), specifically the capital building. I spotted [The Grafton Monster](https://www.vgr.com/beasts-west-virginia-grafton-monster/) lurking around here and breifly engaged before wisening up and running away. I'll have to come back when I've leveled up further.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-22-01.jpg"/>
 
 7. The remains of an Airport, with many broken planes, and one more large crashed airplane
 against the air traffic control tower. The area was teeming with Super Mutants similar
 to the previous crash.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_01-22-14.jpg"/>
 {{% /md %}}
 </div>
 
@@ -131,6 +149,8 @@ Virginia <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f
 - Interactive map built with [Leaflet](https://leafletjs.com) and [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen).
 
 - Map image adapted from [here](https://www.reddit.com/r/fo76/comments/9mgzfu/4k_composite_map_from_ign_gameplay_4356px_x_4356px/) with thanks to [u/ReadsSmallTextWrong](https://www.reddit.com/user/ReadsSmallTextWrong). Original artwork copyright [Bethesda Softworks LLC](https://bethesda.net).
+
+- Fallout 76 etc. copyright Bethesda Softworks LLC
 
 <!--the map script-->
 <script>
@@ -238,7 +258,7 @@ addLocations('#f1e93c', [
   },
   {
     pos: xy(1396 + 20, 2889 - 520),
-    desc: 'A small town',
+    desc: 'A small town - Various factions resided here once, all long gone.',
   },
   {
     pos: xy(1396 - 80, 2889 - 550),
