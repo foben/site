@@ -1,10 +1,8 @@
 ---
 markup: md
-#layout: minimal
-prerelease: true
 date: "2018-10-31"
 title: Mapping Appalachia
-subtitle: A Fallout 76 Journal
+subtitle: An Interactive Fallout 76 Journal
 categories:
 - <span class="emoji" style="background-image:url(/images/slackmoji/pipboy.png)" title=":pipboy:">:pipboy:</span>
 - <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3ae.png)" title=":video_game:">:video_game:</span>
