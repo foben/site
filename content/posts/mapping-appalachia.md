@@ -73,6 +73,8 @@ During the first B.E.T.A. some places I discovered along my travels were:
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-07.jpg"/>
 
 3. The Vault [Overseer](http://fallout.wikia.com/wiki/Vault_76_overseer)'s encampment. A pretty basic camp with a fire, some workbenches, and some storage chests.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_19-23-27.jpg"/>
+
 
 4. A tiny shack in the woods, guarded by a lone [Protectron](http://fallout.wikia.com/wiki/Protectron).
    <img class="centered" src="/images/fallout76/photo_2018-10-31_18-53-48.jpg"/>
@@ -112,7 +114,9 @@ including a geodesic dome. I was attacked and killed by Super Mutant Skirmisher 
 1. Vault 76 again.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-21-57.jpg"/>
 
-2. A logging plant, with logging robots still hard at work.
+2. A logging plant, with logging robots still hard at work. One of them gave
+me some extra wood scraps, and said something like "Must. Chop. Wood. Forever."
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_19-19-51.jpg"/>
 
 3. A small town. Various factions resided here once, all long gone.
 
