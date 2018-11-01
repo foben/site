@@ -74,24 +74,31 @@ During the first B.E.T.A. some places I discovered along my travels were:
 
 3. The Vault [Overseer](http://fallout.wikia.com/wiki/Vault_76_overseer)'s encampment. A pretty basic camp with a fire, some workbenches, and some storage chests.
 
-4. An abandoned water treatment plant. Overrun with [Liberator](http://fallout.wikia.com/wiki/Liberator_(Fallout_76)) robots.
+4. A tiny shack in the woods, guarded by a lone [Protectron](http://fallout.wikia.com/wiki/Protectron).
+   <img class="centered" src="/images/fallout76/photo_2018-10-31_18-53-48.jpg"/>
 
-5. A large crashed plane, apparently a commercial airline. - 
+5. An abandoned water treatment plant. Overrun with [Liberator](http://fallout.wikia.com/wiki/Liberator_(Fallout_76)) robots.
+
+6. A large crashed plane, apparently a commercial airline. - 
   I explored the inside and found some interesting loot. The area was also heavily
 patrolled by Super Mutants, and they had an encampment nearby.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-10.jpg"/>
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-11.jpg"/>
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-11_2.jpg"/>
 
-6. A pharmeceutical company's building, with a very cool retro-futuristic asthetic.
+7. A pharmeceutical company's building, with a very cool retro-futuristic asthetic.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-12.jpg"/>
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_18-49-48.jpg"/>
 
-7. Bolton Green - A daycare for rich kids run by a robot, who was very concerned 
+8. Bolton Greens - A daycare for rich kids run by a robot, who was very concerned 
 with preparation for "The Halloween Gala". I took on a side quest to help for [caps](http://fallout.wikia.com/wiki/Bottle_cap), which mostly consisted of reminding other
 robots to return to the daycare and prepare for Halloween.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_19-10-52.jpg"/>
 
-8. Top of the World - A ski resort with a more retro-futuristic architecture 
+9. Top of the World - A ski resort with a more retro-futuristic architecture 
 including a geodesic dome. I was attacked and killed by Super Mutant Skirmisher here.
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_19-07-26.jpg"/>
+  <img class="centered" src="/images/fallout76/photo_2018-10-31_19-07-30.jpg"/>
 {{% /md %}}
 </div>
 
@@ -115,10 +122,12 @@ including a geodesic dome. I was attacked and killed by Super Mutant Skirmisher 
 working again, but I moved on to explore other areas for now.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-22-06.jpg"/>
 
-6. The remains of [Charleston](https://en.wikipedia.org/wiki/Charleston,_West_Virginia), specifically the capital building. I spotted [The Grafton Monster](https://www.vgr.com/beasts-west-virginia-grafton-monster/) lurking around here and breifly engaged before wisening up and running away. I'll have to come back when I've leveled up further.
+6. A train station - A lone Protectron vendor resided here. There were no trains.
+
+7. The remains of [Charleston](https://en.wikipedia.org/wiki/Charleston,_West_Virginia), specifically the capital building. I spotted [The Grafton Monster](https://www.vgr.com/beasts-west-virginia-grafton-monster/) lurking around here and breifly engaged before wisening up and running away. I'll have to come back when I've leveled up further.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-22-01.jpg"/>
 
-7. The remains of an Airport, with many broken planes, and one more large crashed airplane
+8. The remains of an Airport, with many broken planes, and one more large crashed airplane
 against the air traffic control tower. The area was teeming with Super Mutants similar
 to the previous crash.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-22-14.jpg"/>
@@ -231,6 +240,10 @@ addLocations('#3388ff', [
     desc: "The Vault Overseer's encampment",
   },
   {
+    pos: xy(1396 + 340, 2889 - 700),
+    desc: "A tiny shack in the woods, guarded by a lone <a href='http://fallout.wikia.com/wiki/Protectron'>Protectron</a>."
+  },
+  {
     pos: xy(1396 + 540, 2889 - 670),
     desc: "A water treatment plant",
   },
@@ -244,7 +257,7 @@ addLocations('#3388ff', [
   },
   {
     pos: xy(1396 + 870, 2889 - 300),
-    desc: "Bolton Green - A day care for rich kids, run by robots",
+    desc: "Bolton Greens - A day care for rich kids, run by robots",
   },
   {
     pos: xy(1396 + 1000, 2889 - 580),
@@ -272,6 +285,10 @@ addLocations('#f1e93c', [
   {
     pos: xy(1396 - 250, 2889 - 1050),
     desc: 'Poseidon - A nuclear power plant.',
+  },
+  {
+    pos: xy(1396 - 95, 2889 - 1070),
+    desc: 'A train station - A lone Protectron vendor resided here. There were no trains.',
   },
   {
     pos: xy(1396 + 130, 2889 - 1200),
