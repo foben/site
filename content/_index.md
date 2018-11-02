@@ -10,10 +10,10 @@ title: Home
         <td>BSCS '17 @ <a href="http://www.gatech.edu/">Georgia Tech</a> <span class="emoji" style="background-image:url(/images/GT_Buzz_logo.svg)" title=":buzz:">:buzz:</span></td>
       </tr>
       <tr>
-        <td>SWE <a href="https://en.wiktionary.org/wiki/Noogler">Noogler</a> <span class="emoji" style="background-image:url(/images/noogler_cap.png)" title=":noogler_cap:">:noogler_cap:</span></td>
+        <td>Software Engineer @ Google <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span></td>
       </tr>
       <tr>
-        <td><a href="https://kubernetes.io">Kubernetes</a> <a href="https://github.com/kubernetes/test-infra">Infra</a> Dev <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span></td>
+        <td>Everything is fine <span class="emoji" style="background-image:url(/images/slackmoji/this_is_fine.jpg)" title=":this_is_fine:">:this_is_fine:</span></td>
       </tr>
     </tbody>
   </table>

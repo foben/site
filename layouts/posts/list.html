@@ -3,6 +3,7 @@
   <div id="content">
     <div class="tile">
       <p class="page-title">Posts</p>
+      <hr/>
       {{ range $i, $post := .Pages.ByDate.Reverse }}
       {{ if .Params.prerelease }}{{ else }}
       <a href="{{.Permalink}}" class="full-bleed list-item {{- if eq $i 0}} first {{- end}}">

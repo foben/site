@@ -291,6 +291,7 @@ a.white:focus,
 }
 .footer a:before {
   background-color: #00ff1f;
+  height: 2px;
 }
 .header-content a:hover:before,
 .header-content a.current:before,
@@ -358,6 +359,10 @@ a.white:focus,
 }
 #content>.tile:first-child {
   padding-top: .5em;
+}
+
+#content .page-title {
+  margin-top: -.1em;
 }
 
 .tile>.full-bleed,
@@ -876,6 +881,7 @@ blockquote {
   background-color: rgb(228, 253, 239);
   padding: 1em;
   margin: 1em .0;
+  font-size: .95em !important;
 }
 
 blockquote>p:first-child {

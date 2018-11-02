@@ -5,6 +5,7 @@ title: Projects
 ---
 <div class="tile">
     <p class="page-title">Projects</p>
+    <hr>
     <p class="big bold section-title centered-text" style="margin-top: 0.25em">This list is incomplete, see also <span class="inline-block"><a href="http://github.com/BenTheElder">my GitHub profile</a> <span class="emoji" style="background-image:url(/images/GitHub-Mark-120px-plus.png)" title=":github:">:github:</span></span></p>
     <div class="full-bleed first list-item">
       <p class="section-title">Mr. CoffeeBot <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3a9.png)" title=":tophat:">:tophat:</span><span class="emoji" style="background-image:url(/images/emoji/emoji_u2615.png)" title=":coffee:">:coffee:</span><span class="emoji" style="background-image:url(/images/emoji/emoji_u1f916.png)" title=":robot:">:robot:</span></p>

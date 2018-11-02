@@ -3,7 +3,8 @@
   <div id="content">
     <div class="tile centered-text">{{ .Content }}</div>
     <div class="tile" style="margin-top: -2em;">
-      <p class="title centered centered-text underline">Posts</p>
+      <p class="title centered centered-text">Posts</p>
+      <hr>
       {{ range $i, $post := (where .Pages "Section" "posts").ByDate.Reverse }}
       {{ if .Params.prerelease }}{{ else }}
       <a href="{{.Permalink}}" class="full-bleed list-item {{- if eq $i 0}} first {{- end}}">
