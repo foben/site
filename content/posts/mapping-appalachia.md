@@ -45,7 +45,7 @@ head: |
     /*text-transform: uppercase;*/
   }
   #content p.page-title .black {
-    color: rgba(255,255,255,.91);
+    color: rgba(255,255,255,.95);
   }
   </style>
 ---
@@ -138,7 +138,48 @@ to the previous crash.
 {{% /md %}}
 </div>
 
-Notes:
+
+<p class="title" style="font-weight: bold; margin-top: .25em;">November 1st B.E.T.A.</p>
+
+<hr>
+
+I got in another hour during the November 1st session.
+
+<div style="border-left: 3px solid #ce0019; margin-left:-5px;">
+{{% md %}}
+1. The Burning Mine - As the name suggests, a burnt out mine. This was the first
+and only place I visited in the "Ash Heap Region". Thankfully I had already
+equipped a gas mask which saved me from getting lung disease many times ...
+There was a Power Armor station here, but the game broke when I tried to enter the power armor.
+This area had _many_ high level Scorched. I also aquired a shotgun here.
+  <img class="centered" src="/images/fallout76/photo_2018-11-02_00-15-45.jpg"/>
+  <img class="centered" src="/images/fallout76/photo_2018-11-02_00-13-14.jpg"/>
+
+
+2. Hornwright Air Purifier Site #02 - Some malfunctioning terminals attached
+to some strange looking "air purifier", presumably there's a quest to fix these
+at some point, not much else here.
+  <img class="centered" src="/images/fallout76/photo_2018-11-02_00-22-18.jpg"/>
+  <img class="centered" src="/images/fallout76/photo_2018-11-02_00-22-23.jpg"/>
+
+
+3. Uncanny Caverns - Some kind of tourist spot, I encountered a "vicious wolf" here.
+  <img class="centered" src="/images/fallout76/photo_2018-11-02_00-24-14.jpg"/>
+
+4. R & G Processing Services - Some kind of industrial plant.
+  <img class="centered" src="/images/fallout76/photo_2018-11-02_00-32-27.jpg"/>
+
+5. Spruce Knob - "The highest place in West Virginia"
+  <img class="centered" src="/images/fallout76/photo_2018-11-02_00-11-27.jpg"/>
+
+6. South Mountain Lookout - A Lookout Tower.
+  <img class="centered" src="/images/fallout76/photo_2018-11-02_00-31-20.jpg"/>
+{{% /md %}}
+</div>
+
+
+<p class="title" style="font-weight: bold; margin-top: .25em;">Notes</p>
+<hr>
 
 - Crashed planes are definitely a thing in Appalachia, there are a _lot_ of
 crashed planes, I suspect part of the plot (possibly for the "scorched" enemies)
@@ -146,7 +187,7 @@ will revolve around this somehow.
 
 - Robots play a much bigger part in this world.
 
-I streamed most of my time on YouTube, you can watch it [here](https://www.youtube.com/watch?v=npIzLI7kvU8). I didn't capture everything in this post.
+I streamed most of my time on YouTube, you can watch [the first day here](https://www.youtube.com/watch?v=npIzLI7kvU8) and [the second day here](https://www.youtube.com/watch?v=Ta_gC2npUPo). I didn't capture everything in this post.
 
 I had fun, but had some frustration with the menus, particularly with the tab key
 being used to go back instead of escape. The menus for binding equippables were 
@@ -302,6 +343,38 @@ addLocations('#f1e93c', [
     pos: xy(1396 + 110, 2889 - 1060),
     desc: 'The remains of an Airport',
   },
+]);
+
+addLocations('#ce0019', [
+  {
+    pos: xy(1396 + 130, 2889 - 1200),
+    desc: 'The remains of Charleston',
+    noMarker: true,
+  },
+  {
+    pos: xy(1396 + 185, 2889 - 1340),
+    desc: 'The Burning Mine',
+  },
+  {
+    pos: xy(1396 + 280, 2889 - 1500),
+    desc: 'Hornwright Air Purifier Site #02',
+  },
+  {
+    pos: xy(1396 + 510, 2889 - 1450),
+    desc: 'Uncanny Caverns - Some kind of tourist spot',
+  },
+  {
+    pos: xy(1396 + 800, 2889 - 1650),
+    desc: 'R & G Processing Services - Some kind of industrial plant',
+  },
+  {
+    pos: xy(1396 + 1060, 2889 - 1540),
+    desc: 'Spruce Knob - "The highest place in West Virginia"',
+  },
+  {
+    pos: xy(1396 + 1170, 2889 - 1680),
+    desc: 'South Mountain Lookout - A Lookout Tower',
+  }
 ]);
 
 </script>
