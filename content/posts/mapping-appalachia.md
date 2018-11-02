@@ -169,7 +169,9 @@ at some point, not much else here.
 4. R & G Processing Services - Some kind of industrial plant.
   <img class="centered" src="/images/fallout76/photo_2018-11-02_00-32-27.jpg"/>
 
-5. Spruce Knob - "The highest place in West Virginia"
+5. Spruce Knob - "The highest place in West Virginia". I "captured" a public
+workspace there before moving on. There was also some kind of monorail like train
+station, with two cars there.
   <img class="centered" src="/images/fallout76/photo_2018-11-02_00-11-27.jpg"/>
 
 6. South Mountain Lookout - A Lookout Tower.
