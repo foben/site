@@ -14,7 +14,7 @@ title: Projects
     </div>
     <div class="full-bleed list-item">
       <p class="section-title">This Website <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f468_200d_1f4bb.png)"title=":male_technologist:">:male_technologist:</span></p>
-      <p class="">This website was written from scratch (no frameworks!) with a small backend service written in Go handling automatic site updates triggered by GitHub webhooks. This service is deployed to Kubernetes behind an NGINX Ingress handling TLS termination.
+      <p class="">This website in it's current form was written from scratch with <a href="https://gohugo.io/">Hugo</a>. - <a href="https://github.com/BenTheElder/site" class="italic">Source</a>
       </p>
     </div>
     <div class="full-bleed list-item">
@@ -88,5 +88,5 @@ title: Projects
         <a href="https://github.com/BenTheElder/mission-ctrl" class="italic">Source</a>
       </p>
     </div>
-    <p></p>
+    <div style="height: .25em"></div>
   </div>

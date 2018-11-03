@@ -28,15 +28,15 @@ body {
   /* sticky footer */
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 #content {
   background-color: white;
-  min-height: calc(100vh - 7em);
+  /*min-height: calc(100vh - 8.5em);*/
   min-width: 100%;
   clear: both;
   overflow-x: hidden;
+  flex: 1 0 auto;
 }
 
 .full-page-width {
@@ -332,8 +332,8 @@ a.white:focus,
 
 .footer {
   text-align: center;
-  padding-bottom: .5em;
-  padding-top: .5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
   line-height: 1.75;
   font-size: .9em;
   font-weight: 500;
@@ -342,6 +342,7 @@ a.white:focus,
   color: white;
   position: relative;
   margin: auto auto 0 auto;
+  flex-shrink: 0;
 }
 
 .tile,
@@ -381,14 +382,17 @@ a.white:focus,
 .card>.full-bleed.list-item {
   border: 1px solid #dedede;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: -1px;
   overflow-x: hidden;
+  position: relative;
+  z-index: 1;
 }
 .tile>a.full-bleed.list-item:hover,
 .card>a.full-bleed.list-item:hover,
 .tile>a.full-bleed.list-item:focus,
 .card>a.full-bleed.list-item:focus {
   border-color: #105ae2;
+  z-index: 2;
 }
 .tile>.full-bleed.list-item.first,
 .card>.full-bleed.list-item.first {
@@ -455,7 +459,7 @@ img.with-border {
 
 .tile .page-title,
 .card .page-title {
-  font-size: 2em;
+  font-size: 1.65em;
   margin: 0 auto;
   text-align: center;
   line-height: 1.3;

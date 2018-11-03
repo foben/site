@@ -25,28 +25,6 @@ head: |
     margin: 0;
     padding: 0;
   }
-  #content p.page-title {
-    margin: .25em auto;
-    padding: .15em!important;
-    padding-left: .5em!important;
-    padding-right: .5em!important;
-    line-height: 1.2em;
-    font-size: 2em;
-    color: #f1e93c;
-    text-align: center;
-    font-family: Roboto;
-    font-weight: bold;
-    color: white;
-    background-color: #8e0011;
-    border: 2px solid black;
-    font-size: 1.6em;
-    margin-bottom: 0.1em;
-    margin-top: 0;
-    /*text-transform: uppercase;*/
-  }
-  #content p.page-title .black {
-    color: rgba(255,255,255,.95);
-  }
   </style>
 ---
 <!--title-->
