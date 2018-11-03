@@ -14,7 +14,7 @@ title: Projects
     </div>
     <div class="full-bleed list-item">
       <p class="section-title">This Website <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f468_200d_1f4bb.png)"title=":male_technologist:">:male_technologist:</span></p>
-      <p class="">This website in it's current form was written from scratch with <a href="https://gohugo.io/">Hugo</a>. - <a href="https://github.com/BenTheElder/site" class="italic">Source</a>
+      <p class="">This website in its current form was built with <a href="https://gohugo.io/">Hugo</a>, using custom layouts. - <a href="https://github.com/BenTheElder/site" class="italic">Source</a>
       </p>
     </div>
     <div class="full-bleed list-item">
