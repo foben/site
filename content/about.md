@@ -5,7 +5,7 @@ title: About
 ---
 <div class="tile">
     <p class="page-title">About</p>
-    <hr>
+    <hr class="full-bleed">
     <p class="">I finished my B.S. in Computer Science at
     <a href="http://www.gatech.edu/">Georgia Tech</a> in the Spring of 2017 with
     "<a href="http://www.cc.gatech.edu/future/undergraduates/bscs/threads">threads</a>" (focus) in

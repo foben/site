@@ -157,7 +157,7 @@ a {
 .tile a:hover, .tile a:focus,
 .card a:hover, .card a:focus {
   border-color: #105ae2;/*#1967D2;*/
-  background-color: #fdd83524;
+  /*background-color: #fdd83524;*/
 }
 .leaflet-container a:hover,
 .leaflet-container a:focus {
@@ -533,7 +533,7 @@ img.with-border {
 
 .circle-badge {
   height: auto;
-  border-radius: 50%; border: .5em solid #105ae2;
+  border-radius: 50%; border: 5px solid #105ae2;
   background-color: #105ae2;
   margin: 0.1em auto;
   margin-bottom: 0.1em;
