@@ -197,13 +197,15 @@ In conclusion:
 The same `kubectl` commands I use to debug our services for the Kubernetes project's
  infrstructure on GKE work just as well on my toy cluster at home. <span style="background-image:url(/images/emoji/emoji_u1f604.png)" title=":smile:" class="emoji">:smile:</span>
 
-- If you want to give Kubernetes a try with much less effort [Google Cloud](https://cloud.google.com/) offers [a free 12 month, $300 credit](https://cloud.google.com/free/) and an [always-free tier](https://cloud.google.com/free/) which both include [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/).  
+- If you want to give hosting on Kubernetes a try with much less effort, [Google Cloud](https://cloud.google.com/) offers [a free 12 month, $300 credit](https://cloud.google.com/free/) and an [always-free tier](https://cloud.google.com/free/) which both include [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/).  
 We use GKE heavily for the project infrastructure and I can speak highly to it's ease of use
  and freedom to focus on your services without worrying about setting up and maintaining all of the pluggable Kubernetes bits such as [logging](https://kubernetes.io/docs/tasks/debug-application-cluster/logging-stackdriver/), [master upgrades](https://cloud.google.com/kubernetes-engine/docs/clusters/upgrade), [node auto repair](https://cloud.google.com/kubernetes-engine/docs/node-auto-repair), [IAM](https://cloud.google.com/iam/), [cluster networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/#google-compute-engine-gce), etc. 
 
 If my site were a serious production service instead of a toy learning experience I would seriously look towards GKE instead of a one node "cluster" running on a DIY "server" sitting by my desk at home, but setting up a toy cluster with `kubeadm` was a great experience for experimenting with Kubernetes. I can recommend using kubeadm for similar experiments, it's quite simple to use once you have all the prerequesites installed and configured and the docs are quite good, however it won't solve many of the things you'll want for a production cluster.
 
 You may also want to look around the list of the many [CNCF certified Kubernetes conformant products](https://www.cncf.io/certification/software-conformance/) for other options if for some reason neither of these sound appealing to you. 
+
+If you really just want to play with it first (and not host anything), check out [minikube](https://github.com/kubernetes/minikube).
 
 ----
 
@@ -214,3 +216,7 @@ Addendum:
 - Kubernetes [secrets](https://kubernetes.io/docs/concepts/configuration/secret/) are awesome. My simple Go service can just read in the GitHub webhook secret as an environment variable injected into the container without worrying about how the secret is loaded and stored.<!-- <img src="/images/emoji/emoji_u1f510.png" title="Locked with Key" class="emoji"></img> -->
 
 - To get a one node cluster working you need to [remove the master taint](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#master-isolation). This is terrible idea for a production cluster but great for tinkering and effectively using kubelet as your PID1.
+
+----
+
+**UPDATE**: My site [is on Netlify now](http://localhost:1313/posts/gitops-all-the-things/), but I still run my own Kubernetes cluster to host other small projects. Hosting it on a toy Kubernetes cluster worked well, execept when the power went out at my apartment ... I'd like my site to be online even then, hence Netlify <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f643.png)" title=":upside_down_face:">:upside_down_face:</span>
