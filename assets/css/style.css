@@ -380,9 +380,9 @@ a.white:focus,
 }
 .tile>.full-bleed.list-item,
 .card>.full-bleed.list-item {
-  border: 1px solid #dedede;
+  border: 2px solid #dedede;
   margin-top: 0;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
   overflow-x: hidden;
   position: relative;
   z-index: 1;
