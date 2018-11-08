@@ -1009,11 +1009,11 @@ pre {
 }
 
 code {
-  background-color: #def3ff;
-  color: #002f88;
+  background-color: #fff3f3;
+  color: red;
   border-radius: .22em;
   padding: .08em .22em;
-  border: 1px solid #aee1ff;
+  border: none;
   /* box-shadow: 0.2em 0 0 #b2e2ff, -0.2em 0 0 #b2e2ff; */
   /* margin-left: 0.2em; */
   /* margin-right: 0.2em; */
