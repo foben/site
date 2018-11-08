@@ -31,7 +31,7 @@ Being able to make fixes by sending a pull-request with configuration updates al
 
 Following this model I've moved this site to [Hugo], [Netlify], and [GitHub] and managing it has never been easier (the official [Kubernetes website] uses [the same stack]).
 
-For Kubernetes as an Open-Source community we're making strides towards a world where _everything_ is **publicly managed through declarative config**. With the meta "[Org]" project and [Peribolos] we now have "**Join the Kubernetes Organizations - [by Pull Request]**". I hope this can bring increased openness to project management by managing project membership, teams, repo configuration, and more via the same (public) GitOps model with **public requests for changes** and **public records of all changes** (via [git history]), and I'd encourage other organizations to take a look. 
+For Kubernetes as an Open-Source community we're making strides towards a world where _everything_ is **publicly managed through declarative config**. With the meta "[Org]" project and [Peribolos] we now have "**Join the Kubernetes Organizations - [by Pull Request]**". I hope this can bring increased openness to the project by managing project membership, teams, repo configuration, and more via the same (public) GitOps model with **public requests for changes** and **public records of all changes** (via [git history]), and I'd encourage other organizations to take a look. 
 
 If this sounds good to you, all of [the tooling] being developed for this is declarative, easy to use, and open-source. If you're interested, please reach out via email or Twitter (see [my homepage]), [Kubernetes SIG-Testing slack], or file a GitHub Issue with [test-infra].
 
