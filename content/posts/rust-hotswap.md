@@ -116,7 +116,7 @@ In anycase, it's a cool trick.
 ----------------------
 <u>**Full Source**</u>
 
-<div class="tile no-padding sourceCode"><div class="details">src/main.rs <span style="float: right">Rust</span></div>
+<div class="tile no-padding sourceCode"><div class="details">src/main.rs <span style="float: right">Rust</span></div></div>
 
 ```rust
 extern crate glob;
@@ -180,9 +180,10 @@ fn main() {
     do_lib_tick(dylib_path_pattern.as_slice(), 2);
 }
 ```
-</div>
 
-<div class="tile no-padding sourceCode"><div class="details">src/lib.rs <span style="float: right">Rust</span></div>
+<p></p>
+
+<div class="tile no-padding sourceCode"><div class="details">src/lib.rs <span style="float: right">Rust</span></div></div>
 
 ```rust
 use std::io;
@@ -199,9 +200,10 @@ pub extern "C" fn do_tick(num: i32) {
     out.flush();
 }
 ```
-</div>
 
-<div class="tile no-padding sourceCode"><div class="details">Cargo.toml <span style="float: right">TOML</span></div>
+<p></p>
+
+<div class="tile no-padding sourceCode"><div class="details">Cargo.toml <span style="float: right">TOML</span></div></div>
 
 ```toml
 [package]
@@ -220,4 +222,3 @@ path = "src/main.rs"
 [dependencies]
 glob = "*"
 ```
-</div>
