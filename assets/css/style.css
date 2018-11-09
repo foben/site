@@ -789,12 +789,12 @@ button:hover,
   color: black;
   border-color: black;
   /* 2dp shadow */
-  -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.14),
+  /*-webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.14),
   0 3px 4px 0 rgba(0,0,0,0.12),
   0 1px 5px 0 rgba(0,0,0,0.20);
   box-shadow: 0 0 4px 0 rgba(0,0,0,0.14),
   0 3px 4px 0 rgba(0,0,0,0.12),
-  0 1px 5px 0 rgba(0,0,0,0.20);
+  0 1px 5px 0 rgba(0,0,0,0.20);*/
 }
 
 .shadow-2dp {
