@@ -785,9 +785,8 @@ button:focus,
 button:hover,
 .button:hover {
   /*background-color: #00C757;*/
-  background-color: #00ff1f;
   color: black;
-  border-color: black;
+  background-color: #00ff1f;
   /* 2dp shadow */
   /*-webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.14),
   0 3px 4px 0 rgba(0,0,0,0.12),
