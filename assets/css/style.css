@@ -730,12 +730,14 @@ button,
   box-sizing: content-box;
   background-color: #f92672;
   background-color: #0091EA;
+  background-color: #105ae2;
   border: 2px solid white;
-  border-color: black;
+  /*border-color: black;*/
   color: white;
 }
 a.button {
   border-bottom: 2px solid black;
+  border-color: white;
 }
 
 button>*,
@@ -785,8 +787,9 @@ button:focus,
 button:hover,
 .button:hover {
   /*background-color: #00C757;*/
-  background-color: #00e676;
+  background-color: #00ff1f;
   color: black;
+  border-color: black;
   /* 2dp shadow */
   -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.14),
   0 3px 4px 0 rgba(0,0,0,0.12),
