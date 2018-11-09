@@ -783,7 +783,8 @@ button>img,
 button:focus,
 .button:focus,
 button:hover,
-.button:hover {
+.button:hover,
+.button.lit {
   /*background-color: #00C757;*/
   color: black;
   background-color: #00ff1f;
