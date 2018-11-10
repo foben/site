@@ -21,7 +21,7 @@ head: |
     max-width: 50em;
     max-height: 50em;
     background-color: #0e0e0e;
-    border: 2px solid #f1e93c;
+    border: 2px solid #000;
     margin: 0;
     padding: 0;
   }

@@ -54,9 +54,9 @@ Across the top starting from the top left you can see the <a href="http://conway
 NOTE: The colors in this demo are inverted from the standard style for
  aesthetic purposes.
 
-<br/>
+<br>
 <hr/>
-<br/>
+<br>
 
   <p class="title">Wireworld</p>
 
