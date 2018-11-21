@@ -1,7 +1,7 @@
 ---
 markup: md
 type: misc
-title: Kubelife
+title: KubeLife
 ---
 <div class="tile">
     <p class="page-title">KubeLife</p>
