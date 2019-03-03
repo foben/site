@@ -490,3 +490,6 @@ function loadScript(url, callback)
 };
 loadScript("/scripts/automata.js", init);
 </script>
+
+<!--icon font for pause / play buttons-->
+<link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet" property="stylesheet" />
