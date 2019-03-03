@@ -8,7 +8,8 @@ title: Projects
     <hr class="full-bleed">
     <p class="big bold section-title centered-text" style="">This list is incomplete, see also <span class="inline-block"><a href="http://github.com/BenTheElder">my GitHub profile</a> <span class="emoji" style="background-image:url(/images/GitHub-Mark-120px-plus.png)" title=":github:">:github:</span></span></p>
     <hr>
-      <p class="section-title"><code>kind</code> - <code>K</code>ubernetes <code>IN</code> <code>D</code>ocker <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span></p>
+      <p class="section-title">kind - Kubernetes IN Docker <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span></p>
+      <img src="/images/kind-logo.png" alt="kind Logo" title="kind Logo" class="centered" style="width: 300px ;margin-top: .5em; margin-bottom: -.5em;" />
       <p><a href="https://sigs.k8s.io/kind">kind</a> is a tool for running local Kubernetes clusters using Docker container "nodes".<br>It is primarily designed for testing Kubernetes 1.11+, initially targeting the <a href="https://github.com/kubernetes/community/blob/master/contributors/devel/conformance-tests.md">conformance tests</a>.</p>
       <p> If you have <a href="https://golang.org/">go</a> and <a href="https://www.docker.com/">docker</a> installed <code>go get sigs.k8s.io/kind && kind create cluster</code> is all you need!</p>
       <img class="" src="https://gist.githubusercontent.com/BenTheElder/621bc321fc6d9506fd936feb36d32dd0/raw/7fe14e9d0929cab428929ca6c501abc990c07359/kind-create-cluster.gif" alt="2x speed `kind create cluster` demo" />
