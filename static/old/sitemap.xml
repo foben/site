@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bentheelder.io/posts/mapping-appalachia/</loc>
+    <lastmod>2019-03-03T11:27:48-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/gitops-all-the-things/</loc>
+    <lastmod>2018-11-08T02:02:16-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/slackmoji-anywhere/</loc>
+    <lastmod>2018-09-23T14:00:50-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/brewing-with-kubernetes/</loc>
+    <lastmod>2018-09-23T21:03:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/migrating-my-site-to-kubernetes/</loc>
+    <lastmod>2018-11-08T02:01:31-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/prow/</loc>
+    <lastmod>2018-09-23T21:10:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/automata/</loc>
+    <lastmod>2019-03-03T13:23:42-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/hello-again/</loc>
+    <lastmod>2018-09-23T14:00:50-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/creaturebox/</loc>
+    <lastmod>2018-09-23T21:10:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/rust-hotswap/</loc>
+    <lastmod>2018-11-09T01:16:26-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/404/</loc>
+    <lastmod>2018-09-23T17:06:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/about/</loc>
+    <lastmod>2018-11-06T09:53:38-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/</loc>
+    <lastmod>2018-11-06T09:53:38-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/kubelife/</loc>
+    <lastmod>2018-11-21T01:12:11-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/posts/</loc>
+    <lastmod>2018-09-23T16:34:28-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bentheelder.io/projects/</loc>
+    <lastmod>2019-03-03T11:42:49-08:00</lastmod>
+  </url>
+  
+</urlset>
