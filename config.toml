@@ -2,6 +2,8 @@
 
 title = "BenTheElder"
 copyright = "Copyright © 2015-{year} Benjamin Elder."
+baseURL = "https://elder.dev"
+languageCode = "en-us"
 
 # these are defaults, but let's be explicit
 defaultContentLanguage = "en"
@@ -16,3 +18,6 @@ enableGitInfo = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=inline"
+
+# we don't use thse
+disableKinds = ["taxonomy","taxonomyTerm"]
