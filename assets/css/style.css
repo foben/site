@@ -202,7 +202,7 @@ a.white:focus,
   line-height: normal;
   margin: 0;
   text-align: center;
-  font-size: 1.333em;
+  font-size: 1.25em;
   font-weight: normal;
   letter-spacing: .02em;
   background-color: #105ae2;
@@ -346,10 +346,17 @@ a.white:focus,
   flex-shrink: 0;
 }
 
+.footer .nav {
+  font-size: 1.33em;
+  margin: .25em auto;
+  margin-top: -.2em;
+  /* border-bottom: 2px solid white; width: fit-content; padding: 0.25em 1.5em; padding-top: 0;*/
+}
+
 .tile,
 .card {
   font-size: 18px;
-  padding: 1.25em;
+  padding: 1.33em;
   background-color: white;
   color: rgba(0,0,0,0.87);
   max-width: 50em;
