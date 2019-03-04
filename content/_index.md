@@ -24,7 +24,7 @@ title: Home
     <tbody>
       <tr>
         <td style="text-align: right"><span class="bold">Email <span class="emoji" style="background-image:url(/images/material_icons/ic_contact_mail_black_24px.svg)" title=":email:">:email:</span></span></td>
-        <td><a href="mailto:bentheelder@gmail.com">bentheelder@gmail.com</a></td>
+        <td><a href="mailto:ben@elder.dev">ben@elder.dev</a></td>
       </tr>
       <tr>
         <td style="text-align: right"><span class="bold">Work <span class="emoji" style="background-image:url(/images/material_icons/ic_contact_mail_black_24px.svg)" title=":email:">:email:</span></span></td>
