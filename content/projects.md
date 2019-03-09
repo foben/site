@@ -46,9 +46,9 @@ title: Projects
       <p>slack-rs is a
         <a href="https://slack.com/">Slack</a> client library for
         <a href="http://www.rust-lang.org">Rust</a>.&nbsp;&nbsp;-&nbsp;
-        <a href="https://github.com/BenTheElder/slack-rs" class="italic">Source</a>&nbsp;&nbsp;
-        <a href="https://crates.io/crates/slack">Package</a>&nbsp;&nbsp;
-        <a href="https://bentheelder.github.io/slack-rs">Docs</a>&nbsp;&nbsp;
+        <a href="https://github.com/BenTheElder/slack-rs" class="italic">Source</a> • 
+        <a href="https://crates.io/crates/slack">Package</a> • 
+        <a href="https://bentheelder.github.io/slack-rs">Docs</a> • 
         <a href="https://github.com/BenTheElder/slack-rs-demo">Demo Project</a>
       </p>
     <hr>
