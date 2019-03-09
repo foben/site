@@ -955,6 +955,8 @@ pre.chroma {
   background-color: #0057eb;
   color: white;
   padding: 0!important;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .card.higlight,
 .tile.higlight{
