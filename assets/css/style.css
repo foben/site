@@ -31,6 +31,13 @@ body {
   flex-direction: column;
 }
 
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
 #content {
   background-color: white;
   /*min-height: calc(100vh - 8.5em);*/
@@ -372,10 +379,6 @@ a.white:focus,
   padding-top: .5em;
 }
 
-#content .page-title:first-of-type {
-  margin-top: -.08em;
-}
-
 .tile>.full-bleed,
 .card>.full-bleed {
   display: block;
@@ -465,11 +468,17 @@ img.with-border {
 
 .tile .page-title,
 .card .page-title {
-  font-size: 1.65em;
   margin: 0 auto;
+  margin-top: -.1em;
   text-align: center;
+  line-height: 1.2;
+}
+.tile p.page-title,
+.card p.page-title{
+  font-size: 1.65em;
   line-height: 1.3;
 }
+
 .tile .title, 
 .card .title {
   font-size: 130%;

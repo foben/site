@@ -44,7 +44,7 @@ After the B.E.T.A. my interest fell off quickly as the locations and quests fail
     <div id="map" style="margin: 0 auto;"></div>
 </div>
 
-<p class="title" style="font-weight: bold">October 30th <a href="https://bethesda.net/en/article/XUtJrgiCgU6WqMASW8w0I/fallout-76-our-future-begins-together-in-beta">B.E.T.A.</a>  (Break-It Early Test Application)</p>
+## October 30th [B.E.T.A.](https://bethesda.net/en/article/XUtJrgiCgU6WqMASW8w0I/fallout-76-our-future-begins-together-in-beta) (Break-It Early Test Application)
 <hr>
 
 During the first B.E.T.A. some places I discovered along my travels were:
@@ -127,7 +127,7 @@ to the previous crash.
 </div>
 
 
-<p class="title" style="font-weight: bold; margin-top: .25em;">November 1st B.E.T.A.</p>
+## November 1st B.E.T.A.
 
 <hr>
 
@@ -168,7 +168,7 @@ station, with two cars there.
 </div>
 
 
-<p class="title" style="font-weight: bold; margin-top: .25em;">Notes</p>
+## Notes
 <hr>
 
 - Crashed planes are definitely a thing in Appalachia, there are a _lot_ of
@@ -188,7 +188,7 @@ Proximity voice chat also led to some ... interesting moments, including a
 ringing iPhone and a McDonalds order placed from the wastelands of West 
 Virginia <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f914.png)" title=":thinking:">:thinking:</span>
 
-<p class="title">Acknowledgements</p>
+## Acknowledgements
 <hr>
 
 - Interactive map built with [Leaflet](https://leafletjs.com) and [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen).

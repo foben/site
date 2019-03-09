@@ -21,7 +21,7 @@ If not, you should probably start with the rust [book](http://doc.rust-lang.org/
 
 __________________________________________________________________________
 
-### Project setup
+## Project Setup
 
 
 First we'll set up a folder to develop from:
@@ -60,7 +60,7 @@ dynamic library.
 
 __________________________________________________________________________
 
-### Code
+## Code
 
 
 Next we'll need our library source, this is the part we will swap out at runtime.
@@ -114,7 +114,7 @@ In anycase, it's a cool trick.
 <br>
 
 ----------------------
-### Full Source
+## Full Source
 
 <div class="tile no-padding sourceCode"><div class="details">src/main.rs <span style="float: right">Rust</span></div></div>
 

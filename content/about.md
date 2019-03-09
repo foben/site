@@ -4,7 +4,7 @@ type: misc
 title: About
 ---
 <div class="tile">
-    <p class="page-title">About</p>
+    <h1 class="page-title">About</h1>
     <hr class="full-bleed">
     <p class="">I finished my B.S. in Computer Science at
     <a href="http://www.gatech.edu/">Georgia Tech</a> in the Spring of 2017 with

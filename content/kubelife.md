@@ -4,7 +4,7 @@ type: misc
 title: KubeLife
 ---
 <div class="tile">
-    <p class="page-title">KubeLife</p>
+    <h1 class="page-title">KubeLife</h1>
     <div class="full-bleed" style="margin-top: 0;margin-bottom: 0.25em; padding: 0">
     <canvas id="kubelife-canvas" height="1632" width="1632" class="full-bleed" style="width: 100%">
     <div class="centered-text title white" style="background-color: black; padding: 1em">This automaton requires that you <a href="http://www.enable-javascript.com/">enable JavaScript</a>.</div>

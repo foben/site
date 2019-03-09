@@ -2,7 +2,7 @@
 {{ partial "navbar.html" . }}
   <div id="content">
     <div class="tile">
-      <p class="page-title">Posts</p>
+      <h1 class="page-title">Posts</h1>
       <hr class="full-bleed" />
       {{ range $i, $post := .Pages.ByDate.Reverse }}
       {{ if .Params.prerelease }}{{ else }}

@@ -4,7 +4,7 @@ type: misc
 title: Projects
 ---
 <div class="tile">
-    <p class="page-title">Projects</p>
+    <h1 class="page-title">Projects</h1>
     <hr class="full-bleed">
     <p class="big bold section-title centered-text" style="">This list is incomplete, see also <span class="inline-block"><a href="http://github.com/BenTheElder">my GitHub profile</a> <span class="emoji" style="background-image:url(/images/GitHub-Mark-120px-plus.png)" title=":github:">:github:</span></span></p>
     <hr>
