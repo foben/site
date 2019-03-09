@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
   <div id="content">
-    <div class="tile centered-text">{{ .Content }}</div>
+    <div class="tile centered-text">{{ partial "fancymarkdown.html" .Content }}</div>
     <div class="tile" style="margin-top: -1.5em;">
       <p class="title centered centered-text">Posts</p>
       <hr class="full-bleed">
