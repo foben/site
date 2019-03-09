@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
   <div id="content">
-    <div class="tile centered-text">{{ partial "fancymarkdown.html" .Content }}</div>
-    <div class="tile" style="margin-top: -1.5em;">
+    <div class="tile centered-text" style="padding-bottom: 0">{{ partial "fancymarkdown.html" .Content }}</div>
+    <div class="tile" style="margin-top: -1em;">
       <p class="title centered centered-text">Posts</p>
       <hr class="full-bleed">
       {{ range $i, $post := (where .Pages "Section" "posts").ByDate.Reverse }}
