@@ -127,7 +127,7 @@ hr {
   background-color: #000;
   border: none !important;
   height: 2px !important;
-  margin-bottom: .25em !important;
+  margin-bottom: 0 !important;
   margin-top: .25em !important;
   padding: 0 !important;
 }
@@ -360,11 +360,14 @@ a.white:focus,
   background-color: white;
   color: rgba(0,0,0,0.87);
   max-width: 50em;
-  margin: 0 auto;
-  margin-top: .75rem;
-  margin-bottom: 1rem;
-  margin: 0 auto;
+  margin: .75rem auto;
+
 }
+#content>.tile{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 #content>.tile:first-child {
   padding-top: .5em;
 }
@@ -403,12 +406,8 @@ a.white:focus,
 }
 .tile>.full-bleed.list-item.first,
 .card>.full-bleed.list-item.first {
-  margin-top: .75em;
+  margin-top: 0;
   position: relative;
-}
-.tile>.full-bleed.list-item:last-child,
-.card>.full-bleed.list-item:last-child {
-  margin-bottom: -1.25em;
 }
 .card>.full-bleed.list-item:last-child {
   border-bottom-left-radius: 8px;
