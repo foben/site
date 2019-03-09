@@ -69,10 +69,10 @@ button, .button,
 .card>table {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
-.tile>*,
+/*.tile>*,
 .card>* {
   font-size: 1em;
-}
+}*/
 .page-title,
 .tile .title, .tile .sub-title,
 .tile h1, .tile h2, .tile h3, .tile h4, .tile h5, .tile h6,
@@ -1035,6 +1035,19 @@ pre.chroma {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
+}
+
+/* heading anchors */
+.hanchor { 
+  font-size: 100%;
+  visibility: hidden;
+  font-size: .5em;
+  vertical-align: middle;
+  text-decoration: none !important;
+  border-bottom: none;
+}
+h1:hover a, h2:hover a, h3:hover a, h4:hover a { 
+  visibility: visible;
 }
 
 

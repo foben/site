@@ -15,7 +15,7 @@
         {{ end }}
        <p class="sub-title">{{ replace $date "SUFFIX" $suffix }}</p>
       <hr class="full-bleed">
-      {{ .Content }}
+      {{ partial "fancymarkdown.html" .Content }}
     </div>
   </div>
 {{ partial "footer.html" . }}

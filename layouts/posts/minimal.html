@@ -2,7 +2,7 @@
 {{ partial "navbar.html" . }}
   <div id="content">
     <div class="tile blog-content">
-      {{ .Content }}
+      {{ partial "fancymarkdown.html" .Content }}
     </div>
   </div>
 {{ partial "footer.html" . }}
