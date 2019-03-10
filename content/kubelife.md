@@ -3,15 +3,13 @@ markup: md
 type: misc
 title: KubeLife
 ---
-<div class="tile">
-    <h1 class="page-title">KubeLife</h1>
-    <div class="full-bleed" style="margin-top: 0;margin-bottom: 0.25em; padding: 0">
-    <canvas id="kubelife-canvas" height="1632" width="1632" class="full-bleed" style="width: 100%">
-    <div class="centered-text title white" style="background-color: black; padding: 1em">This automaton requires that you <a href="http://www.enable-javascript.com/">enable JavaScript</a>.</div>
-    </canvas>
-    </div>
-    <div class="centered-text"><button id="kubelife-pause"><i class="material-icons">pause</i></button><button tabindex="0" onclick="doReset(event, this, initGOL)"><i class="material-icons">replay</i></button></div>
-    <div class="centered-text">Inspired by the Kubernetes <a href="https://github.com/kubernetes/sig-release/blob/master/releases/release-1.12/README.md">1.12 Release</a></div>
+<canvas id="kubelife-canvas" height="1632" width="1632" class="full-bleed" style="width: 100%; margin-top: .5em">
+<div class="centered-text title white" style="background-color: black; padding: 1em">This automaton requires that you <a href="http://www.enable-javascript.com/">enable JavaScript</a>.</div>
+</canvas>
+
+<div class="centered-text"><button id="kubelife-pause"><i class="material-icons">pause</i></button><button tabindex="0" onclick="doReset(event, this, initGOL)"><i class="material-icons">replay</i></button></div>
+<div class="centered-text">Inspired by the Kubernetes <a href="https://github.com/kubernetes/sig-release/blob/master/releases/release-1.12/README.md">1.12 Release</a></div>
+
 <!-- script for demos -->
 <script>
 /* generic snippet to prevent button focus on click*/
@@ -167,4 +165,6 @@ function loadScript(url, callback)
 };
 loadScript("/scripts/automata.js", init);
 </script>
-</div>
+
+<!--icon font for pause / play buttons-->
+<link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet" property="stylesheet" />
