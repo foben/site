@@ -7,4 +7,4 @@ HUGO = hugo
 
 # local development, run a local server with hugo
 serve:
-	$(HUGO) server --ignoreCache --disableFastRender
+	$(HUGO) server --ignoreCache --disableFastRender --buildDrafts
