@@ -3,7 +3,7 @@
   <div id="content">
     <div class="tile centered-text" style="">{{ partial "fancymarkdown.html" .Content }}
       <p class="title centered centered-text" style="margin-top: -.5em">Posts</p>
-      <hr class="full-bleed">
+      <!--<hr class="full-bleed">-->
       {{ range $i, $post := (where .Pages "Section" "posts").ByDate.Reverse }}
       {{ if .Params.prerelease }}{{ else }}
       <a href="{{.Permalink}}" class="left-text full-bleed list-item {{- if eq $i 0}} first {{- end}}">
