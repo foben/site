@@ -21,3 +21,6 @@ pygmentsOptions = "linenos=inline"
 
 # we don't use thse
 disableKinds = ["taxonomy","taxonomyTerm"]
+
+# build draft posts
+buildDrafts = true
