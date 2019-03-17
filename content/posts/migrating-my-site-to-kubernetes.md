@@ -1,7 +1,7 @@
 ---
 markup: md
 date: "2018-03-04"
-title: Migrating My Site To Kubernetes
+title: Migrating My Site to Kubernetes
 categories:
 - META
 - <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span>

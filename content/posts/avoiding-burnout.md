@@ -1,5 +1,4 @@
 ---
-draft: true
 markup: md
 title: Avoiding Burnout in Open Source
 date: "2019-03-17"
