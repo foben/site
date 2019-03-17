@@ -76,7 +76,7 @@ patrolled by Super Mutants, and they had an encampment nearby.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-11.jpg"/>
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-11_2.jpg"/>
 
-7. A pharmeceutical company's building, with a very cool retro-futuristic asthetic.
+7. A pharmaceutical company's building, with a very cool retro-futuristic aesthetic.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-12.jpg"/>
   <img class="centered" src="/images/fallout76/photo_2018-10-31_18-49-48.jpg"/>
 
@@ -116,7 +116,7 @@ working again, but I moved on to explore other areas for now.
 
 6. A train station - A lone Protectron vendor resided here. There were no trains.
 
-7. The remains of [Charleston](https://en.wikipedia.org/wiki/Charleston,_West_Virginia), specifically the capital building. I spotted [The Grafton Monster](https://www.vgr.com/beasts-west-virginia-grafton-monster/) lurking around here and breifly engaged before wisening up and running away. I'll have to come back when I've leveled up further.
+7. The remains of [Charleston](https://en.wikipedia.org/wiki/Charleston,_West_Virginia), specifically the capital building. I spotted [The Grafton Monster](https://www.vgr.com/beasts-west-virginia-grafton-monster/) lurking around here and briefly engaged before wisening up and running away. I'll have to come back when I've leveled up further.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-22-01.jpg"/>
 
 8. The remains of an Airport, with many broken planes, and one more large crashed airplane
@@ -139,7 +139,7 @@ I got in another hour during the November 1st session.
 and only place I visited in the "Ash Heap Region". Thankfully I had already
 equipped a gas mask which saved me from getting lung disease many times ...
 There was a Power Armor station here, but the game broke when I tried to enter the power armor.
-This area had _many_ high level Scorched. I also aquired a shotgun here.
+This area had _many_ high level Scorched. I also acquired a shotgun here.
   <img class="centered" src="/images/fallout76/photo_2018-11-02_00-15-45.jpg"/>
   <img class="centered" src="/images/fallout76/photo_2018-11-02_00-13-14.jpg"/>
 
