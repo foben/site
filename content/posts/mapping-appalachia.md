@@ -27,20 +27,14 @@ head: |
   }
   </style>
 ---
-<!--title-->
-<!--Mapping Fallout 76-->
-<p class="title" style="font-weight: bold; margin-left: auto; margin-right: auto;">UPDATE</p>
-
-----
-
-It's worth noting that I did NOT wind up playing Fallout 76 much
+**UPDATE**: It's worth noting that I did NOT wind up playing Fallout 76 much
 further.
 After the B.E.T.A. my interest fell off quickly as the locations and quests failed to be as engaging for me as previous Fallout games.
 
 -----
 
 <!--the map-->
-<div class="full-page-width" style="padding: 0;">
+<div class="full-page-width" style="padding: 0; padding-top: 1em">
     <div id="map" style="margin: 0 auto;"></div>
 </div>
 
