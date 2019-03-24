@@ -1,14 +1,16 @@
 {{ partial "header.html" . }}
-<div class="centered-text error-page">
-  <div class="header">
-    <div class="header-content">
-      <div class="brand">Not Found</div>
-    </div>
+{{ partial "navbar.html" . }}
+<div id="content" class="centered-text">
+  <div class="tile centered centered-text">
+    <!--<h1 class="centered"><span class="" style="
+        color: #00ff1e;
+        background: black;
+        padding-left: .3em;
+        padding-right: .35em;
+    ">404</span></h1>-->
+    <h1 class="centered"><span class="triple-size">404</span></h1>
+    <h1 class="centered">Page not found <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f9d0.png)" title=":face_with_monocole:">:face_with_monocole:</span></h1>
+    <h1 class="centered"><a href="/">home</a></h1>
   </div>
-  <div class="triple-size"><img src="/images/emoji/emoji_u1f50c.png" class="emoji" alt="Electric Plug"></img> 404 <img src="/images/emoji/emoji_u1f468_200d_1f4bb.png" class="emoji" alt="Technologist"></img></div>
-  <div>No page was found at this address.</div>
-  <br>
-  <div><a href="/" class="button" style="background: black;"><div>Visit Homepage</div></a></div>
-  <br>
 </div>
 {{ partial "footer.html" . }}
