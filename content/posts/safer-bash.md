@@ -1,7 +1,7 @@
 ---
 markup: md
 title: Writing Safer Bash
-date: "2019-03-17"
+date: "2019-04-08"
 categories:
 - <span class="emoji" style="background-image:url(/images/slackmoji/bash_fire.png)" title=":bash_fire:"/>:bash_fire:</span>
 - <span class="emoji" style="background-image:url(/images/slackmoji/bash.png)" title=":bash:"/>:bash:</span>
