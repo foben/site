@@ -1,5 +1,4 @@
 {{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
   <div id="content">
     <div class="tile blog-content">
       <h1 class="page-title">{{if .Params.htmlTitle}}{{.Params.htmlTitle | safeHTML}}{{else}}{{.Title}}{{end}}{{if .Params.subtitle }}<span class="inline-block not-bold">:</span> <span class="inline not-bold"> {{.Params.subtitle}} </span>{{end}}</h1>{{range .Params.Categories}}<span class="category">{{. | safeHTML}}</span>{{end}}
