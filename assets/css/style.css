@@ -1,7 +1,7 @@
 /* style elements */
 html {
   width: 100%;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
@@ -19,7 +19,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: black;
   min-height: 100%;
@@ -305,13 +305,12 @@ a:hover, a:focus {
 
 .tile,
 .card {
-  font-size: 18px;
+  font-size: 20px;
   padding: 1.33em;
   background-color: white;
   color: rgba(0,0,0,0.87);
-  max-width: 50em;
+  max-width: 42em;
   margin: .75rem auto;
-
 }
 #content>.tile{
   margin-bottom: 0;
