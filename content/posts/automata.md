@@ -3,7 +3,7 @@ markup: md
 date: "2017-06-03"
 title: Automata
 categories:
-- JavaScript
+- <span class="emoji" style="background-image:url(/images/slackmoji/javascript.png)" title=":javascript:"/>:javascript:</span>
 - CS
 ---
 <noscript><div class="full-width tile centered centered-text warning" style="margin-bottom: 1em;"><p class="title centered centered-text">JavaScript is required to view the demos in this post.</h3><h3 class="bold centered centered-text" style="margin-bottom: 0;">Please <a href="http://www.enable-javascript.com/" target="_blank" rel="noopener noreferrer">enable JavaScript</a>.</h3></div></noscript>
