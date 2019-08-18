@@ -2,9 +2,9 @@
 markup: md
 date: "2018-03-04"
 title: Brewing With Kubernetes
-htmlTitle: 'Brewing With Kubernetes <span class="emoji" style="background-image:url(/images/emoji/emoji_u2615.png)" title=":coffee:">:coffee:</span>'
+htmlTitle: 'Brewing With Kubernetes'
 categories:
-- Hardware
+-  <span class="emoji" style="background-image:url(/images/emoji/emoji_u2615.png)" title=":coffee:">:coffee:</span>
 - <span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span>
 ---
 

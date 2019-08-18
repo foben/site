@@ -1,9 +1,9 @@
 ---
 title: Home
 ---
-<img src="/images/ben_avatar_optim.jpg" class="circle-badge" style="width: 100%; max-width: 15em; margin-top: -.75em; margin-bottom: -.75em;" title="Ben in one of the Google ball pits" />
-<p class="title centered" style="font-size: 1.75em"><a href="/about">Benjamin Elder</a></p>
-<div class="" style="padding: .5em">
+<h1 class="title centered" style="font-size: 1.75em;margin-top:-.5em">Hi, you've found <a href="/about">Benjamin Elder</a>'s site.</h1>
+<figure class="full-bleed"><img style="" src="/images/IMG_20190808_184934.resized.jpg"></figure>
+<div class="" style="padding: .5em; padding-top: 0">
   <table style="margin: 0 auto; font-size: 1.1em;">
     <tbody>
       <tr>

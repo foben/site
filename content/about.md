@@ -3,17 +3,20 @@ markup: md
 type: misc
 title: About
 ---
-<p class="">I finished my B.S. in Computer Science at
+<p class="">I graduated with my B.S. in Computer Science from
 <a href="http://www.gatech.edu/">Georgia Tech</a> in the Spring of 2017 with
-"<a href="http://www.cc.gatech.edu/future/undergraduates/bscs/threads">threads</a>" (focus) in
+"<a href="http://www.cc.gatech.edu/future/undergraduates/bscs/threads">threads</a>" in
 <a href="http://www.cc.gatech.edu/devices">Devices</a> and
-<a href="https://www.cc.gatech.edu/intelligence">Intelligence</a>. Some of my many interests include: robotics / automation, machine learning, systems, communications,
+<a href="https://www.cc.gatech.edu/intelligence">Intelligence</a>. Some of my many interests include: robotics / automation, systems, communications,
 programming languages, software portability, performance, and reliability.
-I enjoy building tools and solving problems. I am a dog person, a gamer, and a tinkerer. <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f436.png)" title=":dog:">:dog:</span><span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3ae.png)" title=":video_game:">:video_game:</span><span class="emoji" style="background-image:url(/images/emoji/emoji_u1f527.png)" title=":wrench:">:wrench:</span></p>
-<img src="/images/basset_selfie_quarter_size_optim.jpg" class="centered" title="Ben and Toby" alt="Ben and the family dog Toby" />
-<p class="">Most recently I joined Google as a Software Engineer ("SWE") in the Summer of 2017, working on <a href="https://github.com/kubernetes/test-infra">Test Infrastructure / GitHub Automation</a> for <a href="https://kubernetes.io">Kubernetes</a>. <span class="emoji" style="background-image:url(/images/noogler_cap.png)" title=":noogler_cap:" >:noogler_cap:</span><span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span></p>
-<br>
-<p class="title centered centered-text">Resume</p>
+I enjoy building tools and solving problems. I am a dog person, a gamer, and a tinkerer.</p>
+<p class="">More recently I joined Google as a Software Engineer ("SWE") in the Summer of 2017, working on <a href="https://github.com/kubernetes/test-infra">Test Infrastructure / GitHub Automation</a> for <a href="https://kubernetes.io">Kubernetes</a>. <span class="emoji" style="background-image:url(/images/noogler_cap.png)" title=":noogler_cap:" >:noogler_cap:</span><span class="emoji" style="background-image:url(/images/kubernetes_logo.svg)" title=":kubernetes:"/>:kubernetes:</span></p>
+<p>Currently my work is focused primarily on local test clusters with <a href="https://github.com/kubernetes-sigs/kind">KIND</a>, which I created and maintain.
+I also help maintain Kubernetes - particularly builid, test, and release.
+I hope to improve the developer and contributor experience. I love working
+with the community.</p>
+<img src="/images/kubecon_barcelona_group.jpg" class="centered" alt="Ben" />
+<h2 class="centered centered-text">Resume</h2>
 <hr/>
 <p></p>
 <div class="tile warning centered centered-text">

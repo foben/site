@@ -43,7 +43,7 @@ After the B.E.T.A. my interest fell off quickly as the locations and quests fail
 
 During the first B.E.T.A. some places I discovered along my travels were:
 
-<div style="border-left: 3px solid #3388ff; margin-left:-5px;">
+<div style="border-left: 3px solid #3388ff; margin-left:-7px;">
 {{% md %}}
 1. [**Vault 76**](http://fallout.wikia.com/wiki/Vault_76) - An underground bunker where the journey begins.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-06-00.jpg"/>
@@ -91,7 +91,7 @@ including a geodesic dome. I was attacked and killed by Super Mutant Skirmisher 
 <hr>
 
 
-<div style="border-left: 3px solid #f1e93c; margin-left:-5px;">
+<div style="border-left: 3px solid #f1e93c; margin-left:-7px;">
 {{% md %}}
 1. Vault 76 again.
   <img class="centered" src="/images/fallout76/photo_2018-10-31_01-21-57.jpg"/>
@@ -127,7 +127,7 @@ to the previous crash.
 
 I got in another hour during the November 1st session.
 
-<div style="border-left: 3px solid #ce0019; margin-left:-5px;">
+<div style="border-left: 3px solid #ce0019; margin-left:-7px;">
 {{% md %}}
 1. The Burning Mine - As the name suggests, a burnt out mine. This was the first
 and only place I visited in the "Ash Heap Region". Thankfully I had already
