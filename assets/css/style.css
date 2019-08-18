@@ -206,6 +206,15 @@ a:hover, a:focus {
 .header a {
   border-bottom: none;
 }
+.header .circle-badge {
+  width: 100%;
+  width: 2.75em;
+  height: 2.75em;
+  border-width: .25em;
+  margin-top: 0;
+  background: white;
+  padding: .1em;
+}
 .left {
   display: inline-block;
   flex: 1;
