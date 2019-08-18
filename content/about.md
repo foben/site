@@ -7,7 +7,7 @@ My name is Benjamin Elder, though I am frequently known as Ben / [BenTheElder].
 I enjoy gaming, hiking, and building things.
 I want computers / machines to help people do more.
 
-During [Google Summer of Code][summer-of-code] 2015 I [implemented][kube-proxy-pr] Tim Hockin's [proposal][kube-proxy-issue] to use iptables isntead of userspace for proxying in [Kubernetes]'s [kube-proxy], which later evolved into the current default implementation.
+During [Google Summer of Code][summer-of-code] 2015 I [implemented][kube-proxy-pr] Tim Hockin's [proposal][kube-proxy-issue] to use iptables instead of userspace for proxying in [Kubernetes]'s [kube-proxy], which later evolved into the current default implementation.
 
 More recently I graduated with a B.S. in Computer Science from
 <a href="http://www.gatech.edu/">Georgia Tech</a> in the Spring of 2017 with
