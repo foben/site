@@ -1,7 +1,7 @@
 ---
 title: Home
 ---
-<h1 class="title centered" style="font-size: 1.75em;margin-top:-.5em">Hi, you've found <a href="/about">Benjamin Elder</a>'s site.</h1>
+<h1 class="title centered" style="font-size: 1.75em;margin-top:-.5em">Hi, you've found <a href="/about">Benjamin Elder</a>'s website. <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f44b.png)" title=":wave:">:wave:</span></h1>
 <figure class="full-bleed"><img style="" src="/images/IMG_20190808_184934.resized.jpg"></figure>
 <div class="" style="padding: .5em; padding-top: 0">
   <table style="margin: 0 auto; font-size: 1.1em;">
