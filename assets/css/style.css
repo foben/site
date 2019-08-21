@@ -934,8 +934,8 @@ pre {
 }
 
 code {
-  background-color: #fff3f3;
-  color: red;
+  background-color: rgba(27,31,35,.05);
+  color: rgb(0,0,0);
   border-radius: .22em;
   padding: .08em .22em;
   border: none;
