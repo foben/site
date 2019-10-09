@@ -3,8 +3,8 @@ markup: md
 title: PG&E Outage Data
 date: "2019-10-09"
 categories:
-- <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f4f7.png)" title=":camera:"/>:camera:</span>
-- <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3de.png)" title=":national_park:"/>:national_park:</span>
+- <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f525.png)" title=":fire:"/>:fire:</span>
+- <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f50c.png)" title=":power:"/>:power:</span>
 ---
 
 Since PG&E's website keeps falling over, I'm re-hosting some of the outage data here:
@@ -20,7 +20,7 @@ Maps:
 - <a href="https://elder.dev/files/pge-outage/PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_1008_1130.pdf">PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_1008_1130.pdf</a>
 - <a href="https://elder.dev/files/pge-outage/PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_Santa%20Clara_1008_1130.pdf">PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_Santa%20Clara_1008_1130.pdf</a>
 
-<div style="position:relative;padding-top:170%;background:yellow">
+<div style="position:relative;padding-top:140%;">
     <iframe src="https://docs.google.com/viewer?embedded=true&url=https://elder.dev/files/pge-outage/PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_1008_1130.pdf" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
