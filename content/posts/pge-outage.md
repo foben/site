@@ -20,7 +20,7 @@ Map data:
 Maps:
 
 * <a href="https://elder.dev/files/pge-outage/PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_1008_1130.pdf">PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_1008_1130.pdf</a>
-* <a href="https://elder.dev/files/pge-outage/PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_Santa%20Clara_1008_1130.pdf">PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_Santa%20Clara_1008_1130.pdf</a>
+* <a href="https://elder.dev/files/pge-outage/PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_Santa%20Clara_1008_1130.pdf">PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_Santa Clara_1008_1130.pdf</a>
 
 <div style="position:relative;padding-top:140%;">
     <iframe src="https://docs.google.com/viewer?embedded=true&url=https://elder.dev/files/pge-outage/PSPS_10-09-19_D-02_BaseLine_PUBLIC_ImpactedAreaMap_1008_1130.pdf" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
