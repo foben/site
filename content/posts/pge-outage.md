@@ -7,7 +7,7 @@ categories:
 - <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f50c.png)" title=":power:"/>:power:</span>
 ---
 
-Since PG&E's website keeps falling over, I'm re-hosting some of the outage data here:
+Since PG&E's website keeps falling over, I'm re-hosting some of the outage data here.
 
 See this article for more context:
 https://www.npr.org/2019/10/09/768544316/utility-giant-pg-e-voluntarily-shuts-off-power-could-impact-800-000-californians
