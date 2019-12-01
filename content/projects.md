@@ -19,6 +19,10 @@ title: Projects
 If you have <a href="https://golang.org/">go</a> and <a href="https://www.docker.com/">docker</a> installed <code>go get sigs.k8s.io/kind && kind create cluster</code> is all you need!
 
 <img class="" src="https://gist.githubusercontent.com/BenTheElder/621bc321fc6d9506fd936feb36d32dd0/raw/13fe81c219e64b4917575c8988e06719c072c7f1/kind-demo.gif" alt="`kind create cluster` demo" />
+
+You can hear more about it from me [on the Kubernetes Podcast](https://kubernetespodcast.com/episode/069-kind/) or catch one of my KubeCon [talks
+about it](https://kind.sigs.k8s.io/docs/user/resources/#kubecon-talks).
+
 <hr>
 
 
