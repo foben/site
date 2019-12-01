@@ -21,11 +21,14 @@ out of the box, but it needs a little configuring to achieve what we want.
 
 Namely:
 
-- Upgrade **all** packages regularly
+- Upgrade **all** packages regularly (by default only certain repos / packages are)
 - Reboot when necessary (kernel updates)
-- Cleanup unused packages
+- Cleanup unused packages (we don't want to clog the disk!)
 
-Running the following bash snippet as root (`su`) should achieve this:
+The Debian [wiki page] for this unattended upgrades is pretty good, starting from
+there I've hacked up a basic configuration to do this.
+
+Running the following bash snippet as root (`su`) will configure this:
 
 ```bash
 #!/usr/bin/env bash
@@ -74,7 +77,7 @@ None of this should be particularly surprising, but I think it bears re-iteratin
 partition. You should be able to totally scrap the host OS and start over whenever
 you need.
 - Keep your (non-secret!) configs, scripts etc. in git.
-- Take notes 🙃
+- Take notes! You'll want them later 🙂
 
 ## Addendum
 
@@ -97,3 +100,4 @@ focus on making it all too complicated again 🙃
 [last time]: http://localhost:1313/posts/migrating-my-site-to-kubernetes/
 [GKE]: https://cloud.google.com/kubernetes-engine/
 [chromecasts]: https://en.wikipedia.org/wiki/Chromecast
+[wiki page]: https://wiki.debian.org/UnattendedUpgrades
