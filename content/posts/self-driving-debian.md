@@ -2,7 +2,7 @@
 markup: md
 title: Self-Driving Debian
 date: "2019-12-01"
-draft: true
+draft: false
 categories:
 - Linux
 - <span class="emoji" style="background-image:url(/images/slackmoji/debian.png)" title=":debian:"/>:debian:</span>
@@ -16,7 +16,7 @@ unattended and automatic updates. No manual maintenance.
 
 ## Automated Updates
 
-[Debian] 10 "Buster" ships with the [unattended-upgrades] package installed 
+[Debian] 10 "Buster" 🐶 ships with the [unattended-upgrades] package installed 
 out of the box, but it needs a little configuring to achieve what we want.
 
 Namely:
