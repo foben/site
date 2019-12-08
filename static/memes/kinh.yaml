@@ -1,0 +1,41 @@
+# meme worthy kind-in-honkctl honking
+# https://twitter.com/honk-ci
+apiVersion: v1
+kind: Pod
+metadata:
+  name: h0nk
+  namespace: default
+spec:
+  containers:
+    - command:
+      - wrapper.sh
+      - bash
+      - -c
+      - gsutil cp -P gs://bentheelder-kind-ci-builds/latest/kind-linux-amd64 "${PATH%%:*}/kind" && kind create cluster --name=h0nk && sleep infinity
+      env:
+      - name: DOCKER_IN_DOCKER_ENABLED
+        value: "true"
+      image: gcr.io/k8s-testimages/krte:v20191106-0490589-master
+      securityContext:
+        privileged: true
+      volumeMounts:
+      - mountPath: /bazel-scratch/.cache
+        name: bazel-scratch
+      - mountPath: /var/lib/docker
+        name: docker-root
+      - mountPath: /lib/modules
+        name: modules
+        readOnly: true
+      - mountPath: /sys/fs/cgroup
+        name: cgroup
+    volumes:
+    - emptyDir: {}
+      name: docker-root
+    - hostPath:
+        path: /lib/modules
+        type: Directory
+      name: modules
+    - hostPath:
+        path: /sys/fs/cgroup
+        type: Directory
+      name: cgroup
