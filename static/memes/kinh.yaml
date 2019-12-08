@@ -19,8 +19,6 @@ spec:
       securityContext:
         privileged: true
       volumeMounts:
-      - mountPath: /bazel-scratch/.cache
-        name: bazel-scratch
       - mountPath: /var/lib/docker
         name: docker-root
       - mountPath: /lib/modules
