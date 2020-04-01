@@ -13,7 +13,7 @@ html {
   padding: 0;
   font-size: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  background:#105ae2;
+  background: white;
 }
 
 body {
@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   background: white;
+  padding-top: .25em;
 }
 
 h1 { font-size: 2em; }
@@ -180,9 +181,9 @@ a:hover, a:focus {
   font-size: 1.25em;
   font-weight: normal;
   letter-spacing: .02em;
-  background-color: #105ae2;
+  background-color: #01579b;
   color: white;
-  min-width: 100%;
+  /*min-width: 100%;*/
   top: 0;
   right: 0;
   z-index: 1;
@@ -191,43 +192,42 @@ a:hover, a:focus {
   line-height: normal;
   padding: 0;
   border-bottom: 3px solid black;
-  margin-bottom: 1.2em;
-  border-bottom: .25em solid #105ae2;
+  margin-bottom: 0.8em;
+  border-bottom: .25em solid #01579b;
   text-align: center;
-  display: flex;
+  /*redo*/
+  color: #105ae2;
+  background: none;
+  border: none;
+  width: 98%;
+  max-width: 36em;
+  margin: 0 auto;
+  margin-bottom: -.4em;
 }
 .header a {
-  color: white;
   margin-top: .25em;
-  font-weight: bold;
+  font-weight: bold
   /*margin-left: -.1em;
   margin-right: -.1em;*/
 }
 .header a {
-  border-bottom: none;
+  /*border-bottom: none;*/
 }
 .header .circle-badge {
   width: 100%;
-  width: 2.75em;
-  height: 2.75em;
-  border-width: .25em;
+  width: 2.5em;
+  height: 2.5em;
+  border-width: 6px;
   margin-top: 0;
   background: white;
-  padding: .1em;
+  border-color: #01579b;
+  padding: 2px;
 }
 .left {
-  display: inline-block;
-  flex: 1;
-}
-.left>* {
-  float: right;  
+  float: left;
 }
 .right {
-  display: inline-block;
-  flex: 1;
-}
-.right>* {
-  float: left;
+  float: right
 }
 .center {
   display: inline-block;
@@ -934,8 +934,9 @@ pre {
 }
 
 code {
-  background-color: rgba(27,31,35,.05);
+  background-color: rgba(27,31,35,.07);
   color: rgb(0,0,0);
+  color: #e01e5a;
   border-radius: .22em;
   padding: .08em .22em;
   border: none;
