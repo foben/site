@@ -991,7 +991,7 @@ h1:hover a, h2:hover a, h3:hover a, h4:hover a {
   }
   .tile,
   .card {
-    padding: 0.5em !important;
+    padding: 1em !important;
     padding-top: 0.4em!important;
     font-size: 16px;
     max-width: 100%;
