@@ -21,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: black;
   min-height: 100%;
   /* sticky footer */
@@ -178,7 +178,7 @@ a:hover, a:focus {
 /* content layout and style */
 .header {
   margin: 0;
-  font-size: 1.25em;
+  font-size: 1.4em;
   font-weight: normal;
   letter-spacing: .02em;
   background-color: #01579b;
@@ -200,7 +200,7 @@ a:hover, a:focus {
   background: none;
   border: none;
   width: 98%;
-  max-width: 36em;
+  max-width: 32em;
   margin: 0 auto;
   margin-bottom: -.4em;
 }
@@ -307,9 +307,9 @@ a:hover, a:focus {
 }
 .tile>.full-bleed.list-item,
 .card>.full-bleed.list-item {
-  border: 2px solid #dedede;
+  border: 3px solid #dedede;
   margin-top: 0;
-  margin-bottom: -2px;
+  margin-bottom: -3px;
   overflow-x: hidden;
   position: relative;
   z-index: 1;
@@ -359,9 +359,10 @@ a:hover, a:focus {
 
 .tile img,
 .card img {
+  width: fit-content;
   max-width: 100%;
   height: auto;
-  margin: 0.25em auto;
+  margin: 0.5em auto;
   padding: 0;
 }
 img.with-border {
@@ -826,7 +827,7 @@ blockquote>p {
   font-weight: 500;
   padding: 0 .25em;
   /*border-radius: 8px;*/
-  border: 1px solid #105ae2;/*#1e88e5;*/
+  border: 2px solid #105ae2;/*#1e88e5;*/
   background: #e0f0ff;/*#f1f8ff;*/
   color: #105ae2;/*#1e88e5;*/
   margin: 0.1em;

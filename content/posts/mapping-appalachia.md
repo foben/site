@@ -14,16 +14,29 @@ head: |
   <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
   <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
   <style>
+  #map-wrapper {
+    padding-top: 100%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 1em auto;
+    margin-bottom: -1em;
+  }
   #map {
     font-size: 1em;
-    width: calc(100vw - 4px);
-    height: calc(100vw - 4px);
-    max-width: 50em;
-    max-height: 50em;
+    width: 100%;
+    height: 100%;
     background-color: #0e0e0e;
-    border: 2px solid #000;
-    margin: 0;
+    outline: 2px solid #000;
+    margin: 0 auto;
     padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
   }
   </style>
 ---
@@ -34,9 +47,7 @@ After the B.E.T.A. my interest fell off quickly as the locations and quests fail
 -----
 
 <!--the map-->
-<div class="full-page-width" style="padding: 0; padding-top: 1em">
-    <div id="map" style="margin: 0 auto;"></div>
-</div>
+<figure id="map-wrapper"><div id="map" style=""></div></figure>
 
 ## October 30th [B.E.T.A.](https://bethesda.net/en/article/XUtJrgiCgU6WqMASW8w0I/fallout-76-our-future-begins-together-in-beta) (Break-It Early Test Application)
 <hr>
