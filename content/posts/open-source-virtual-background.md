@@ -356,7 +356,6 @@ We're also going to actually wire this all up with docker.
 First create a `requirements.txt` with our dependencies:
 
 {{< titledcode lang="Dockerfile" title="fakecam/requirements.txt">}}
-Flask==1.0
 numpy==1.18.2
 opencv-python==4.2.0.32
 requests==2.23.0
