@@ -11,7 +11,6 @@ html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   background: white;
 }
@@ -39,7 +38,6 @@ h5 { font-size: .83em; }
 h6 { font-size: .75em; }
 
 #content {
-  background-color: white;
   /*min-height: calc(100vh - 8.5em);*/
   min-width: 100%;
   clear: both;
@@ -178,7 +176,7 @@ a:hover, a:focus {
 /* content layout and style */
 .header {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: normal;
   letter-spacing: .02em;
   background-color: #01579b;
@@ -200,9 +198,9 @@ a:hover, a:focus {
   background: none;
   border: none;
   width: 98%;
-  max-width: 29.5em;
+  max-width: 27.5em;
   margin: 0 auto;
-  margin-bottom: -.4em;
+  margin-bottom: -.5em;
 }
 .header a {
   margin-top: .25em;
@@ -242,14 +240,10 @@ a:hover, a:focus {
   font-weight: inherit;
   line-height: inherit;
   font-family: inherit;
-  padding: 0 .5em;
-  padding-bottom: 3px;
   margin-bottom: 0;
   position: relative;
 }
 .footer a {
-  padding: 0 .3em;
-  padding-bottom: 3px;
   line-height: 1.6;
 }
 
@@ -276,7 +270,6 @@ a:hover, a:focus {
 
 .tile,
 .card {
-  font-size: 24px;
   padding: 1.33em;
   background-color: white;
   color: rgba(0,0,0,0.87);
@@ -951,7 +944,7 @@ code {
 }
 
 .chroma {
-  font-size: 16px;
+  font-size: 0.75rem;
 }
 
 pre.chroma {
