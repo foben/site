@@ -342,7 +342,10 @@ a:hover, a:focus {
 
 
 .tile img,
-.card img {
+.card img ,
+.tile video,
+.card video
+{
   width: fit-content;
   max-width: 100%;
   height: auto;
@@ -358,6 +361,33 @@ img.with-border {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.tile figure,
+.card figure
+{
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+.tile figcaption,
+.card figcaption
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tile figure img,
+.card figure img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tile figcaption p:first-of-type,
+.card figcaption p:first-of-type {
+  margin-top: 0;
 }
 
 .tile .last,

@@ -1,0 +1,7 @@
+{{ $code := trim .Inner "\n" }}
+{{ $lang := "" }}
+{{ $title := "" }}
+{{ with .Get "lang" }}{{ $lang = . }}{{ end }}
+{{ with .Get "title" }}{{ $title = . }}{{ end }}
+<div class="tile no-padding sourceCode"><div class="details">{{$title}}<span style="float: right">{{$lang}}</span></div></div>
+{{ highlight $code $lang "" }}
