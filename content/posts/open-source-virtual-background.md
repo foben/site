@@ -185,7 +185,8 @@ const http = require('http');
 })();
 {{< /titledcode >}}
 
-To get the mask from our webcam script we can use the following python:
+We can use [numpy] and [requests] to convert a frame to a mask from our
+python script with the following method:
 ```python
 def get_mask(frame, bodypix_url='http://localhost:9000'):
     _, data = cv2.imencode(".jpg", frame)
@@ -193,6 +194,8 @@ def get_mask(frame, bodypix_url='http://localhost:9000'):
         url=bodypix_url,
         data=data.tobytes(),
         headers={'Content-Type': 'application/octet-stream'})
+    # convert raw bytes to a numpy array
+    # raw data is uint8[width * height] with value 0 or 1
     mask = np.frombuffer(r.content, dtype=np.uint8)
     mask = mask.reshape((frame.shape[0], frame.shape[1]))
     return mask
@@ -212,8 +215,12 @@ While I was working on this, I spotted this tweet:
 Now that we have the foreground / background mask, it will be easy to replace
 the background.
 
-After grabbing the awesome "Virtual Background" picture from that thread and 
-cropping it to a 16:9 ratio image we can do the following:
+After grabbing the awesome "Virtual Background" picture from that twitter thread and 
+cropping it to a 16:9 ratio image ...
+
+<img src="./background.jpg">
+
+... we can do the following:
 
 ```python
 # read in a "virtual background" (should be in 16:9 ratio)
@@ -576,3 +583,5 @@ I'm pretty happy with how this came out. I'll definitely be joining all of my me
 [image segmentation]: https://en.wikipedia.org/wiki/Image_segmentation
 [v4l2loopback]: https://github.com/umlaeute/v4l2loopback
 [pyfakewebcam]: https://github.com/jremmons/pyfakewebcam
+[numpy]: https://numpy.org/
+[requests]: https://requests.readthedocs.io/en/master/
