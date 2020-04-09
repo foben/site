@@ -24,3 +24,7 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 
 # build draft posts
 buildDrafts = true
+
+# allow inline html
+[markup.goldmark.renderer]
+unsafe= true
