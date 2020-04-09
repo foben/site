@@ -2,7 +2,7 @@
 markup: md
 title: Open Source Virtual Background
 date: "2020-04-09"
-draft: true
+draft: false
 categories:
 - Linux
 - <span class="emoji" style="background-image:url(/images/emoji/emoji_u1f3a5.png)" title=":movie-camera:"/>:movie-camera:</span>
