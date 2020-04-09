@@ -203,12 +203,9 @@ a:hover, a:focus {
 }
 .header a {
   margin-top: .25em;
-  font-weight: bold
-  /*margin-left: -.1em;
-  margin-right: -.1em;*/
-}
-.header a {
-  /*border-bottom: none;*/
+  font-weight: bold;
+  margin-left: .05em;
+  margin-right: .05em;
 }
 .header .circle-badge {
   width: 100%;
@@ -990,6 +987,7 @@ h1:hover a, h2:hover a, h3:hover a, h4:hover a {
   .header {
     max-width: 98%;
     font-size: 24px;
+    /*margin-bottom: -.45em;*/
   }
   html, body {
     font-size: 16px;
