@@ -204,8 +204,6 @@ a:hover, a:focus {
 .header a {
   margin-top: .25em;
   font-weight: bold;
-  margin-left: .05em;
-  margin-right: .05em;
 }
 .header .circle-badge {
   width: 100%;
