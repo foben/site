@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
   <div id="content">
     <div class="tile centered-text" style="">{{ partial "fancymarkdown.html" .Content }}
-      <p class="title centered centered-text" style="margin-top: -.5em">Posts</p>
+      <p class="page-title">Posts</p>
       <!--<hr class="full-bleed">-->
       {{ range $i, $post := (where $.Site.Pages "Section" "posts").ByDate.Reverse }}
       {{ if (or .Params.draft (eq .Params.title "Posts" ))}}{{ else }}
