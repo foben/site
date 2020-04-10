@@ -469,7 +469,7 @@ def hologram_effect(img):
     return out
 
 def get_frame(cap, background_scaled):
-    _ret_, frame = cap.read()
+    _, frame = cap.read()
     # fetch the mask with retries (the app needs to warmup and we're lazy)
     # e v e n t u a l l y c o n s i s t e n t
     mask = None
@@ -490,8 +490,8 @@ def get_frame(cap, background_scaled):
 # setup access to the *real* webcam
 cap = cv2.VideoCapture('/dev/video0')
 height, width = 720, 1280
-cap.set(3,width)
-cap.set(4,height)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 cap.set(cv2.CAP_PROP_FPS, 60)
 
 # setup the fake camera
