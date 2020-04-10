@@ -462,8 +462,8 @@ def hologram_effect(img):
         if y % (bandLength+bandGap) < bandLength:
             holo[y,:,:] = holo[y,:,:] * np.random.uniform(0.1, 0.3)
     # add some ghosting
-    holo_blur = cv2.addWeighted(holo, 0.2, shift_image(holo.copy(), 5, 5), 0.8, 0)
-    holo_blur = cv2.addWeighted(holo_blur, 0.4, shift_image(holo.copy(), -5, -5), 0.6, 0)
+    holo_blur = cv2.addWeighted(holo, 0.2, shift_img(holo.copy(), 5, 5), 0.8, 0)
+    holo_blur = cv2.addWeighted(holo_blur, 0.4, shift_img(holo.copy(), -5, -5), 0.6, 0)
     # combine with the original color, oversaturated
     out = cv2.addWeighted(img, 0.5, holo_blur, 0.6, 0)
     return out
